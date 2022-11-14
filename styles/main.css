@@ -1,0 +1,31 @@
+.red-text {
+  color: red;
+}
+
+table {
+  color: red;
+  border-color: red;
+  border-radius: 0.5em;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.red-line {
+  color: red;
+  list-style-type: circle;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+input {
+  width: 150px;
+}
+
+.grey-text {
+  color: grey;
+}
