@@ -1,31 +1,95 @@
-.red-text {
-  color: red;
+.container-flexbox {
+  margin: auto;
+  width: 1162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-table {
-  color: red;
-  border-color: red;
-  border-radius: 0.5em;
+.container-flexbox-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
-.blue-text {
-  color: blue;
+.text {
+  height: 85px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
 }
 
-.red-line {
-  color: red;
-  list-style-type: circle;
+.links {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-img {
-  width: 150px;
-  height: 150px;
+.link-item {
+  display: flex;
+  align-items: center;
 }
 
-input {
-  width: 150px;
+.links a {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  color: black;
+  text-decoration: none;
 }
 
-.grey-text {
-  color: grey;
+.container-flexbox-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-grid {
+  margin: 100px auto;
+  width: 1162px;
+  display: grid;
+  grid-gap: 80px;
+}
+
+.container-grid-1 {
+  display: grid;
+  grid-template-rows: 50px 10px 25px;
+  grid-row-gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: 130px 162px 10px 120px 10px 77px;
+  grid-column-gap: 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+
+.container-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: start
+}
+
+.text-grid {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+}
+
+.links-grid a {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  color: black;
+  text-decoration: none;
 }
