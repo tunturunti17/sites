@@ -2,186 +2,223 @@ header {
   position: absolute;
   top: 0;
   width: 1366px;
-  left: 362.5px;
-  right: 362.5px;
+  left: 282px;
+  right: 282px;
   height: 660px;
 }
 
-.logo,
-.navBar,
-#footerHeaders {
+.header__left,
+.header__right,
+.header__center {
   display: inline-block;
 }
 
-.logo {
-  margin-right: 180px;
-  margin-left: 80px;
+.header__left {
+  position: relative;
+  top: 30px;
+  left: 80px;
 }
 
-.navBarLink {
-  font-family: 'Segoe UI';
-  font-style: normal;
+.header__center {
+  position: relative;
+  top: 30px;
+  left: 220px;
+}
+
+.header__right {
+  position: relative;
+  top: 35px;
+  left: 500px;
+}
+
+.header__call {
   color: black;
   text-decoration: none;
+}
+
+.navigation__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 26px;
+  padding: 0px;
+}
+
+.navigation__item {
   list-style-type: none;
   font-weight: 400;
   font-size: 16px;
 }
 
-.navBarUl {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 26px;
-  height: 19px;
-  margin-right: 140px;
-}
-
-.navBarLi {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 11px 0 11px;
-
-}
-
-#footerHeaders a {
+.navigation__link {
+  font-family: 'Segoe UI';
+  font-style: normal;
   color: black;
   text-decoration: none;
-}
-
-#footerHeaders {
-  margin-right: 80px;
-  box-sizing: border-box;
-}
-
-.mainHeaders {
-  display: inline-block;
-  box-sizing: content-box;
-  margin-top: 300px;
-  margin-left: 80px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 
-article {
-  position: absolute;
+.header__main {
+  position: relative;
+  top: 400px;
+  left: 80px;
+}
+
+.content {
+  position: relative;
   top: 660px;
   width: 1366px;
   left: 362.5px;
   right: 362.5px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.programms {
+.content__title {
   height: 55px;
+  width: 210px;
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 100%;
+  position: absolute;
+  top: 10px;
+  left: 40%;
 }
 
-
-.programms,
-.vector-grid,
-.gifts {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap
+.content__title::after {
+  content: '';
+  position: absolute;
+  width: 88px;
+  bottom: 0;
+  height: 2px;
+  background-color: black;
+  margin-bottom: -30px;
+  margin-left: -140px;
 }
 
+.content__subtitle {
+  position: absolute;
+  width: 300px;
+  top: 150px;
+  left: 38%;
+}
 
-.allCards {
+.content__subtitle {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.content__programm {
   display: flex;
   flex-wrap: wrap;
 }
 
-
-.cardProgramm {
-  margin: 10px
+.content__card {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 200px;
 }
 
-.eats {
+.programm {
+  margin: 15px;
+}
+
+.text {
+  display: flex;
+
+}
+
+.programm__text {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   height: 50px;
-
 }
 
-.itemEats {
-  display: flex;
-  flex-wrap: wrap;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
-.container-grid {
+.outsider {
   width: 1162px;
   display: grid;
   grid-gap: 80px;
-  position: absolute;
-  top: 1972px;
+  position: relative;
+  top: 2043px;
   left: 362.5px;
   right: 362.5px;
 }
 
-.container-grid-1 {
-  display: grid;
-  grid-template-rows: 50px 10px 25px;
-  grid-row-gap: 20px;
-  align-items: center;
-  justify-items: center;
-}
-
-.links-grid {
+.outsider__menu {
   display: grid;
   grid-template-columns: 130px 162px 10px 120px 10px 77px;
   grid-column-gap: 50px;
   justify-items: center;
   align-items: center;
+
 }
 
+.outsider__item {
+  list-style-type: none;
+}
 
-.container-grid-2 {
+.outsider__link {
+  color: black;
+  text-decoration: none;
+}
+
+.outsider__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   justify-items: center;
-  align-items: start
+  align-items: start;
+  position: absolute;
+  top: 200px;
 }
 
-.text-grid {
+.outsider__title {
   font-family: 'Segoe UI';
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 100%;
+  position: absolute;
+  height: 55px;
+  width: 210px;
+  left: 45%;
 }
 
-.links-grid a {
+.outsider__title::after {
+  content: '';
+  position: absolute;
+  width: 88px;
+  bottom: 0;
+  height: 2px;
+  background-color: black;
+  margin-bottom: -30px;
+  margin-left: -125px;
+}
+
+.outsider__navigation {
   font-family: 'Segoe UI';
   font-style: normal;
   color: black;
   text-decoration: none;
-}
-
-figure {
-  display: grid;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
-.pageFooter {
   position: absolute;
+  width: 300px;
+  top: 120px;
+  left: 15%;
+}
+
+
+.footer {
+  position: relative;
   height: 203px;
   width: 1366px;
-  top: 2770px;
+  top: 2830px;
   left: 260.5px;
   right: 260.5px;
   border-radius: 0px;
@@ -189,48 +226,48 @@ figure {
   color: white;
 }
 
-.linkFooter {
-  color: white;
-}
-
-.textFooter {
+.footer__text {
   color: white;
   text-decoration: none;
-  position: relative;
+  position: absolute;
   left: 1070px;
-  bottom: 60px;
+  bottom: 20px;
 }
 
-.headFooter {
-  position: relative;
-  top: 10px;
+.footer__head {
+  position: absolute;
+  top: 30px;
   left: 100px;
 }
 
-.infoFooter {
-  position: relative;
+.footer__info {
+  position: absolute;
   left: 100px;
-  bottom: -90px;
+  bottom: 20px;
 }
 
-.companyFooter {
-  position: relative;
+.footer__about {
+  position: absolute;
   left: 545px;
-  top: -70px;
+  top: 30px;
 }
 
-.companyFooter a {
+.footer__link {
   text-decoration: none;
   background: #000000;
   color: white;
 }
 
-.socialLinkFooter {
-  position: relative;
-  left: 1070px;
-  top: -130px;
+.social {
+  position: absolute;
+  left: 1100px;
+  top: 10px;
   display: flex;
   align-items: flex-start;
   padding: 0px;
   gap: 26px;
+}
+
+.social__item {
+  list-style-type: none;
 }
