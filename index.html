@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Static site course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
@@ -12,7 +15,7 @@
     <header class="header">
         <div class="container header__container">
             <div class="header__left">
-                <h1 class="header__logo">Город сад</h1>
+                <div class="header__logo">Город сад</div>
             </div>
             <div class="header__center">
                 <nav class="navigation">
@@ -28,9 +31,12 @@
             <div class="header__right">
                 <a href="tel:+74995214104" class="header__call">+7(499) 521-41-04<br><small>Обратный звонок</small></a>
             </div>
-            <div class="header__main">
-                <p>FITS<br>YOUR<br>MACROS<br>Ваш здоровый рацион на каждый день</p>
-                <button>Выбрать программу</button>
+            <div class="header__title">
+                <h1>FITS<br>YOUR<br>MACROS<sup>*</sup><br></h1>
+                <div class="header__subtitle">
+                    <h2>Ваш здоровый рацион на каждый день</h2>
+                </div>
+                <button class="header__bttn">Выбрать программу</button>
             </div>
         </div>
 
@@ -196,13 +202,51 @@
                 <div class="outsider__image"><img src="./img/coco.png" alt="Кокосовый йогурт"></div>
             </div>
         </aside>
+        <article class="form">
+            <form class="form__page"  enctype="multipart/form-data" method="get" autocomplete ="on">
+                <h2 class="form__title">Связаться с нами</h2>
+                <label class="input-name"><input type="text" placeholder="Имя" name="first-name" required></label>
+                <label class="input-surname"><input type="text" placeholder="Фамилия" name="second-name" required></label>
+                <label class="input-email"><input type="email" placeholder="Email" name="email" required></label>
+                <label class="input-tel"><input type="tel" id="phone" name="phone" pattern="[+]{1}[7]{1}[0-9]{10}"
+                        placeholder ="Телефон" required></label>
+                <select name="select" class="call">
+                    <option value="value1" selected>Выберите время звонка</option>
+                    <option value="value2">12:00-15:00</option>
+                    <option value="value3">15:00-18:00</option>
+                </select>
+                <div class="form__radio">
+                    <div class="radio">
+                        <input id="radio-1" type="radio" name="radio" value="1" checked>
+                        <label for="radio-1">Получать рассылку</label>
+                    </div>
+
+                    <div class="radio">
+                        <input id="radio-2" type="radio" name="radio" value="2">
+                        <label for="radio-2">Не получать рассылку</label>
+                    </div>
+                </div>
+                <div class="checkbox">
+                    <label class="checkbox__label">
+                        <input type="checkbox" checked required>
+                        <span>Я соглашаюсь на обработку персональных данных</span>
+                    </label>
+                </div>
+                <textarea class="form__comment" placeholder="Ваш коменнтарий"></textarea>
+                <button type="submit" class="form__bttn">Отправить</button>
+            </form>
+        </article>
     </main>
     <footer class="footer">
         <div class="footer__head">Город Сад</div>
         <div class="footer__info"><time datetime="2020">2020</time>@ ООО "Город Сад"</div>
-        <div class="footer__about"><a href="tel:+74995214104" class="footer__link">+7(499) 521-41-04</a><br> г. Москва,
-            Семеновская наб. 2/1с1,
-            офис 1003<br><a href="mailto:info@gorodsad.ru" class="footer__link" rel="author">info@gorodsad.ru</a></div>
+        <div class="footer__about"><a href="tel:+74995214104" class="footer__tel">+7(499) 521-41-04</a><br>
+            <p>г. Москва,
+
+                Семеновская наб. 2/1с1,
+                офис 1003
+            </p><a href="mailto:info@gorodsad.ru" class="footer__mail" rel="author">info@gorodsad.ru</a>
+        </div>
         <div class="footer__social">
             <ul class="social">
                 <li class="social__item">

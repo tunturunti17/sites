@@ -1,5 +1,5 @@
 header {
-  position: absolute;
+  position: relative;
   top: 0;
   width: 1366px;
   left: 282px;
@@ -14,21 +14,21 @@ header {
 }
 
 .header__left {
-  position: relative;
-  top: 30px;
-  left: 80px;
+  position: absolute;
+  top: 36px;
+  left: 96px;
 }
 
 .header__center {
-  position: relative;
-  top: 30px;
-  left: 220px;
+  position: absolute;
+  top: 37px;
+  left: 419px;
 }
 
 .header__right {
-  position: relative;
+  position: absolute;
   top: 35px;
-  left: 500px;
+  left: 1109px;
 }
 
 .header__call {
@@ -41,33 +41,77 @@ header {
   flex-direction: row;
   gap: 26px;
   padding: 0px;
+  margin: 0;
 }
 
 .navigation__item {
   list-style-type: none;
-  font-weight: 400;
-  font-size: 16px;
 }
 
 .navigation__link {
-  font-family: 'Segoe UI';
+  font-family: "Segoe UI";
   font-style: normal;
   color: black;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
+  line-height: 120%
 }
 
 
-.header__main {
+.header__title {
   position: relative;
-  top: 400px;
-  left: 80px;
+  top: 160px;
+  left: 96px;
+}
+
+.header__title h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  letter-spacing: 5px;
+}
+
+.header__subtitle h2 {
+  font-size: 20px !important;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.header__call {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.header__call small {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  text-decoration-line: underline;
+}
+
+.header__bttn {
+  position: absolute;
+  top: 435px;
+  width: 293px;
+  height: 62px;
+  background: #162223;
+  border-radius: 58px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  color: #FFFFFF;
 }
 
 .content {
   position: relative;
-  top: 660px;
   width: 1366px;
   left: 362.5px;
   right: 362.5px;
@@ -85,7 +129,7 @@ header {
   line-height: 100%;
   position: absolute;
   top: 10px;
-  left: 40%;
+  left: 562.5px;
 }
 
 .content__title::after {
@@ -95,15 +139,16 @@ header {
   bottom: 0;
   height: 2px;
   background-color: black;
-  margin-bottom: -30px;
-  margin-left: -140px;
+  top: 80px;
+  left: 65px;
+
 }
 
 .content__subtitle {
   position: absolute;
   width: 300px;
-  top: 150px;
-  left: 38%;
+  top: 165px;
+  left: 535px;
 }
 
 .content__subtitle {
@@ -131,6 +176,17 @@ header {
 
 .text {
   display: flex;
+}
+
+.programm__title {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 127%;
+  margin-top: 27px;
+  margin-left: 32px;
+  margin-right: 23px;
 
 }
 
@@ -138,7 +194,42 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  margin-left: 26px;
+  margin-right: 134px;
   height: 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 127%;
+}
+
+.programm__list {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  margin-left: 19px;
+  margin-right: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 172.5%;
+}
+
+.programm__bttn {
+  width: 248px;
+  height: 62px;
+  border: 2px solid #EF3120;
+  background: #FFF;
+  border-radius: 58px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 38px;
+  color: #EF3120;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 89px;
+  margin-bottom: 49px;
 }
 
 .outsider {
@@ -146,7 +237,7 @@ header {
   display: grid;
   grid-gap: 80px;
   position: relative;
-  top: 2043px;
+  top: 1700px;
   left: 362.5px;
   right: 362.5px;
 }
@@ -218,7 +309,7 @@ header {
   position: relative;
   height: 203px;
   width: 1366px;
-  top: 2830px;
+  top: 2480px;
   left: 260.5px;
   right: 260.5px;
   border-radius: 0px;
@@ -226,12 +317,30 @@ header {
   color: white;
 }
 
-.footer__text {
+.footer__text a {
   color: white;
   text-decoration: none;
   position: absolute;
   left: 1070px;
   bottom: 20px;
+}
+
+.footer__text small {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.footer__text small b {
+  font-family: 'Museo Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  text-decoration: none;
 }
 
 .footer__head {
@@ -244,6 +353,11 @@ header {
   position: absolute;
   left: 100px;
   bottom: 20px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
 }
 
 .footer__about {
@@ -252,10 +366,36 @@ header {
   top: 30px;
 }
 
-.footer__link {
+.footer__tel {
   text-decoration: none;
   background: #000000;
   color: white;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.footer__about p {
+  margin-top: 9.15px;
+  margin-bottom: 9.5px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.footer__mail {
+  text-decoration: none;
+  background: #000000;
+  color: white;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
 }
 
 .social {
@@ -270,4 +410,303 @@ header {
 
 .social__item {
   list-style-type: none;
+}
+
+.form {
+  position: relative;
+  top: 2500px;
+  left: 260.5px;
+  right: 260.5px;
+  width: 1366px;
+  height: 843.94px;
+  background: #282828;
+}
+
+.form__title {
+  position: absolute;
+  width: 296px;
+  height: 27px;
+  top: 130px;
+  left: 535px;
+  margin-top: 0px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+  color: #BFE142;
+}
+
+.input-name {
+  position: absolute;
+  top: 242px;
+  left: 219px;
+}
+
+input[type=text] {
+  width: 431.5px;
+  height: 43px;
+  background: #282828;
+  border-top: 1px solid #bdbdbd;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+
+.input-name input::placeholder {
+  position: absolute;
+  top: -5px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+.input-surname {
+  position: absolute;
+  top: 242px;
+  right: 219px;
+}
+
+.input-surname input::placeholder {
+  position: absolute;
+  top: -5px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+.input-email {
+  position: absolute;
+  top: 345px;
+  left: 219px;
+}
+
+input[type=email] {
+  width: 431.5px;
+  height: 43px;
+  background: #282828;
+  border-top: 1px solid #bdbdbd;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+.input-email input::placeholder {
+  position: absolute;
+  top: -5px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+.input-tel {
+  position: absolute;
+  top: 345px;
+  right: 219px;
+}
+
+input[type=tel] {
+  width: 431.5px;
+  height: 43px;
+  background: #282828;
+  border-top: 1px solid #bdbdbd;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+.input-tel input::placeholder {
+  position: absolute;
+  top: -5px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+.call {
+  position: absolute;
+  top: 448px;
+  left: 219px;
+  width: 431.5px;
+  height: 43px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+  background: #282828;
+  border-top: 1px solid #bdbdbd;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+
+.form__comment {
+  position: absolute;
+  top: 458px;
+  right: 219px;
+  width: 436.5px;
+  height: 147px;
+}
+
+
+
+textarea {
+  background: #282828;
+  border-top: 1px solid #bdbdbd;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  resize: none;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+textarea::-webkit-input-placeholder {
+  position: absolute;
+  top: 0px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+.form__bttn {
+  position: absolute;
+  top: 717px;
+  left: 219px;
+  width: 220px;
+  height: 62px;
+  border: 2px solid #FFFFFF;
+  border-radius: 58px;
+  background: #282828;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
+}
+
+.form__radio {
+  position: absolute;
+  top: 551px;
+  left: 219px;
+  display: flex;
+  justify-content: space-between;
+  width: 421px;
+  height: 23px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 105%;
+  color: white;
+}
+
+.radio input[type=radio] {
+  display: none;
+}
+
+.radio label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 35px;
+  margin-right: 0;
+  padding-bottom: 3px;
+  line-height: 18px;
+  user-select: none;
+}
+
+.radio label:before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  background: url(../img/radio1.png) 0 0 no-repeat;
+}
+
+
+.radio input[type=radio]:checked+label:before {
+  background: url(../img/radio2.png) 0 0 no-repeat;
+}
+
+.checkbox {
+  position: absolute;
+  top: 634px;
+  left: 219px;
+  width: 539.45px;
+  height: 23.27px;
+}
+
+.checkbox__label {
+  display: block;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.checkbox__label input[type=checkbox] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+.checkbox__label span {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 45px;
+  line-height: 22px;
+}
+
+.checkbox__label span:before {
+  content: "";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/checkbox1.png) 0 0 no-repeat;
+}
+
+.checkbox__label input[type=checkbox]:checked+span:before {
+  background-image: url(../img/checkbox2.png);
+}
+
+.checkbox__label span {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
 }
