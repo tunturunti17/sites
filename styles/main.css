@@ -451,6 +451,12 @@ input[type=text] {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
 }
 
 
@@ -496,6 +502,12 @@ input[type=email] {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
 }
 
 .input-email input::placeholder {
@@ -523,6 +535,12 @@ input[type=tel] {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 105%;
+  color: #FFF;
 }
 
 .input-tel input::placeholder {
