@@ -4,9 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Static site course</title>
+    <link rel="stylesheet" href="./fontello/css/myproject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
@@ -42,6 +49,44 @@
 
     </header>
     <main>
+
+        <aside class="bz">
+            <div class="bz-content">
+                <div class="box"><i class="icon-dinner"></i>
+                    <p>Разнообразное меню</p>
+                </div>
+                <div class="box"><i class="icon-broccoli"></i>
+                    <p>Много овощей и фруктов</p>
+                </div>
+                <div class="box"><i class="icon-water"></i>
+                    <p>Минимум соли, без сахара</p>
+                </div>
+                <div class="box"><i class="icon-pot"></i>
+                    <p>Полезные способы приготовления</p>
+                </div>
+                <div class="box"><i class="icon-service"></i>
+                    <p>Бесконтактная доставка</p>
+                </div>
+            </div>
+            <div class="bz-border">
+                <div class="box"><i class="icon-dinner"></i>
+                    <p>Разнообразное меню</p>
+                </div>
+                <div class="box"><i class="icon-broccoli"></i>
+                    <p>Много овощей и фруктов</p>
+                </div>
+                <div class="box"><i class="icon-water"></i>
+                    <p>Минимум соли, без сахара</p>
+                </div>
+                <div class="box"><i class="icon-pot"></i>
+                    <p>Полезные способы приготовления</p>
+                </div>
+                <div class="box"><i class="icon-service"></i>
+                    <p>Бесконтактная доставка</p>
+                </div>
+            </div>
+        </aside>
+
         <article class="content">
             <h2 class="container content__title">Программы</h2>
             <div class="content__subtitle">уникальные подарки от партнеров внутри</div>
@@ -203,13 +248,14 @@
             </div>
         </aside>
         <article class="form">
-            <form class="form__page"  enctype="multipart/form-data" method="get" autocomplete ="on">
+            <form class="form__page" enctype="multipart/form-data" method="get" autocomplete="on">
                 <h2 class="form__title">Связаться с нами</h2>
                 <label class="input-name"><input type="text" placeholder="Имя" name="first-name" required></label>
-                <label class="input-surname"><input type="text" placeholder="Фамилия" name="second-name" required></label>
+                <label class="input-surname"><input type="text" placeholder="Фамилия" name="second-name"
+                        required></label>
                 <label class="input-email"><input type="email" placeholder="Email" name="email" required></label>
                 <label class="input-tel"><input type="tel" id="phone" name="phone" pattern="[+]{1}[7]{1}[0-9]{10}"
-                        placeholder ="Телефон" required></label>
+                        placeholder="Телефон" required></label>
                 <select name="select" class="call">
                     <option value="value1" selected>Выберите время звонка</option>
                     <option value="value2">12:00-15:00</option>
