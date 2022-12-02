@@ -49,12 +49,12 @@ header {
 }
 
 .navigation__link {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   color: black;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 120%
 }
 
@@ -73,14 +73,14 @@ header {
 }
 
 .header__subtitle h2 {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-size: 20px !important;
   letter-spacing: 2px;
   font-weight: bolder;
 }
 
 .header__call {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -88,7 +88,7 @@ header {
 }
 
 .header__call small {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -103,7 +103,7 @@ header {
   height: 62px;
   background: #162223;
   border-radius: 58px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -123,7 +123,7 @@ header {
 .content__title {
   height: 55px;
   width: 210px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -153,7 +153,7 @@ header {
 }
 
 .content__subtitle {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -180,7 +180,7 @@ header {
 }
 
 .programm__title {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family:"Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -198,7 +198,7 @@ header {
   margin-left: 26px;
   margin-right: 134px;
   height: 50px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -206,7 +206,7 @@ header {
 }
 
 .programm__list {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   margin-left: 19px;
   margin-right: 19px;
@@ -221,7 +221,7 @@ header {
   border: 2px solid #EF3120;
   background: #FFF;
   border-radius: 58px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -272,7 +272,7 @@ header {
 }
 
 .outsider__title {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -295,7 +295,7 @@ header {
 }
 
 .outsider__navigation {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   color: black;
   text-decoration: none;
@@ -327,7 +327,7 @@ header {
 }
 
 .footer__text small {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -335,7 +335,7 @@ header {
 }
 
 .footer__text small b {
-  font-family: 'Museo Sans', 'PT Sans', sans-serif;
+  font-family: "Museo Sans", 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -354,7 +354,7 @@ header {
   position: absolute;
   left: 100px;
   bottom: 20px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -371,7 +371,7 @@ header {
   text-decoration: none;
   background: #000000;
   color: white;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -381,7 +381,7 @@ header {
 .footer__about p {
   margin-top: 9.15px;
   margin-bottom: 9.5px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -392,7 +392,7 @@ header {
   text-decoration: none;
   background: #000000;
   color: white;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -430,7 +430,7 @@ header {
   top: 130px;
   left: 535px;
   margin-top: 0px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
@@ -452,7 +452,7 @@ input[type=text] {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -464,7 +464,7 @@ input[type=text] {
 .input-name input::placeholder {
   position: absolute;
   top: 10px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -481,7 +481,7 @@ input[type=text] {
 .input-surname input::placeholder {
   position: absolute;
   top: 10px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -503,7 +503,7 @@ input[type=email] {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -514,7 +514,7 @@ input[type=email] {
 .input-email input::placeholder {
   position: absolute;
   top: 10px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -536,7 +536,7 @@ input[type=tel] {
   border-top-width: 0;
   border-right-width: 0;
   border-left-width: 0;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -547,7 +547,7 @@ input[type=tel] {
 .input-tel input::placeholder {
   position: absolute;
   top: 10px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -561,7 +561,7 @@ input[type=tel] {
   left: 219px;
   width: 431.5px;
   height: 43px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -592,7 +592,7 @@ textarea {
   border-right-width: 0;
   border-left-width: 0;
   resize: none;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -603,7 +603,7 @@ textarea {
 textarea::-webkit-input-placeholder {
   position: absolute;
   top: 0px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -620,7 +620,7 @@ textarea::-webkit-input-placeholder {
   border: 2px solid #FFFFFF;
   border-radius: 58px;
   background: #282828;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -636,7 +636,7 @@ textarea::-webkit-input-placeholder {
   justify-content: space-between;
   width: 421px;
   height: 23px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -723,7 +723,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .checkbox__label span {
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -762,7 +762,7 @@ textarea::-webkit-input-placeholder {
   width: 151px;
   height: 38px;
   margin: 0px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -818,7 +818,7 @@ textarea::-webkit-input-placeholder {
   width: 151px;
   height: 38px;
   margin: 0px;
-  font-family: "Roboto", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
