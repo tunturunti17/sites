@@ -67,10 +67,20 @@ header {
 
 .navigation__menu a:hover {
   color: #FF8C00;
+
 }
 
 .navigation__menu a {
-  transition: 500ms linear;
+  transition: 2s ease;
+}
+
+.header__right a:hover {
+  color: #FF8C00;
+
+}
+
+.header__right a {
+  transition: 2s ease;
 }
 
 .navigation__item a::after {
@@ -82,7 +92,7 @@ header {
   height: 0.1em;
   background-color: #FF8C00;
   opacity: 0;
-  transition: opacity 500ms, transform 500ms;
+  transition: opacity 2s, transform 2s;
 }
 
 .navigation__item a {
