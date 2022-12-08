@@ -65,6 +65,12 @@ header {
   padding-bottom: 0.2em;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
+* {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
 .navigation__menu a:hover {
   color: #FF8C00;
 
@@ -83,6 +89,8 @@ header {
   transition: 2s ease;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .navigation__item a::after {
   content: '';
   position: absolute;
@@ -99,10 +107,13 @@ header {
   overflow: hidden;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .navigation__item a::after {
   opacity: 1;
   transform: translate3d(-100%, 0, 0);
 }
+
 
 .navigation__item a:hover::after,
 .navigation__item a:focus::after {
@@ -206,6 +217,8 @@ header {
   filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.25));
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .plate:hover,
 .tomato:hover,
 .minitomato:hover,
@@ -255,6 +268,8 @@ header {
   left: 562.5px;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .content__title::after {
   content: '';
   position: absolute;
@@ -265,6 +280,12 @@ header {
   top: 80px;
   left: 65px;
 
+}
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
+h2:target {
+background-color:  #b6ada3;
 }
 
 .content__subtitle {
@@ -330,7 +351,10 @@ header {
   line-height: 127%;
 }
 
-.programm__list {
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
+.programm__list > li {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   margin-left: 19px;
@@ -465,6 +489,8 @@ header {
   left: 45%;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .outsider__title::after {
   content: '';
   position: absolute;
@@ -510,6 +536,8 @@ header {
   top: 3180px;
   right: 90px;
 }
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 .bazilik:hover,
 .baziliks:hover,
@@ -678,6 +706,7 @@ input[type=text] {
   color: #FFF;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 .input-name input::placeholder {
   position: absolute;
@@ -695,6 +724,8 @@ input[type=text] {
   top: 242px;
   right: 219px;
 }
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 .input-surname input::placeholder {
   position: absolute;
@@ -729,6 +760,8 @@ input[type=email] {
   color: #FFF;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .input-email input::placeholder {
   position: absolute;
   top: 10px;
@@ -761,6 +794,8 @@ input[type=tel] {
   line-height: 105%;
   color: #FFF;
 }
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 .input-tel input::placeholder {
   position: absolute;
@@ -877,6 +912,8 @@ textarea::-webkit-input-placeholder {
   user-select: none;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .radio label:before {
   content: "";
   display: inline-block;
@@ -925,6 +962,8 @@ textarea::-webkit-input-placeholder {
   line-height: 22px;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .checkbox__label span:before {
   content: "";
   display: inline-block;
@@ -972,6 +1011,8 @@ textarea::-webkit-input-placeholder {
   left: 0px;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .mooshroom:hover,
 .twopeppers:hover,
 .greenpeppers:hover {
@@ -999,6 +1040,8 @@ textarea::-webkit-input-placeholder {
   box-sizing: content-box;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .animate__content *,
 .animate__content *::before,
 .animate__content *::after {
@@ -1010,10 +1053,14 @@ textarea::-webkit-input-placeholder {
   padding-right: 105px;
 }
 
+
+
 .animate__animated:nth-child(5) {
   display: inline-block;
   padding-right: 0px;
 }
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 .animate__animated.animate__backInDown:nth-child(1) {
   -webkit-animation-delay: 1.5s;
@@ -1072,6 +1119,8 @@ textarea::-webkit-input-placeholder {
   color: white;
 }
 
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
+
 .animate__content .animate__animated i::before {
   background-color: #BFE142;
   border-radius: 50%;
@@ -1080,6 +1129,8 @@ textarea::-webkit-input-placeholder {
   animation-name: flip;
   animation-iteration-count: infinite;
 }
+
+/*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 .animate__content .animate__animated:nth-child(1) i::before {
   animation-duration: 10s;
@@ -1129,7 +1180,7 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-.animate__animated p {
+.animate__animated  p {
   width: 151px;
   height: 38px;
   margin: 0px;
