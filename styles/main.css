@@ -191,7 +191,7 @@ header {
 .pepper {
   position: absolute;
   top: 446px;
-  left: 1118px;
+  right: 0%;
   width: 242px;
   height: 171px;
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.15));
@@ -360,41 +360,41 @@ header {
 
 .perchik {
   position: absolute;
-  width: 300px;
-  top: -140px;
-  left: 1095px;
+  width: 270px;
+  top: 1040px;
+  right: 0%;
 }
 
 .cucumber {
   position: absolute;
   width: 136px;
   height: 149px;
-  top: 1740px;
-  left: 0px;
+  top: 2940px;
+  left: 0%;
 }
 
 .svekla {
   position: absolute;
   width: 115px;
   height: 101px;
-  top: 1290px;
-  right: 195px;
+  top: 2510px;
   z-index: 1;
+  right: 180px;
 }
 
 .spice {
   position: absolute;
-  width: 442px;
+  width: 325px;
   height: 355px;
-  top: 1260px;
-  right: -115px;
+  top: 2480px;
+  right: 0%;
 }
 
 .plateprogr {
   position: absolute;
   width: 351px;
   height: 348px;
-  top: 1530px;
+  top: 2770px;
   right: 35px;
 }
 
@@ -416,6 +416,7 @@ header {
 
 .outsider {
   width: 1162px;
+  height: 800px;
   display: grid;
   grid-gap: 80px;
   position: relative;
@@ -490,24 +491,24 @@ header {
   position: absolute;
   height: 29px;
   width: 40px;
-  top: 0px;
-  left: 1000px;
+  top: 3180px;
+  right: 350px;
 }
 
 .baziliks {
   position: absolute;
   height: 24px;
   width: 33px;
-  top: 140px;
-  left: -100px;
+  top: 3320px;
+  left: 0px;
 }
 
 .branch {
   position: absolute;
   height: 129px;
   width: 94px;
-  top: 0px;
-  left: 1090px;
+  top: 3180px;
+  right: 90px;
 }
 
 .bazilik:hover,
@@ -527,7 +528,7 @@ header {
   position: relative;
   height: 203px;
   width: 1366px;
-  top: 1800px;
+  top: 900px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 0px;
@@ -632,7 +633,7 @@ header {
 
 .form {
   position: relative;
-  top: 1800px;
+  top: 900px;
   margin-left: auto;
   margin-right: auto;
   width: 1366px;
@@ -951,23 +952,23 @@ textarea::-webkit-input-placeholder {
   position: absolute;
   width: 270px;
   height: 270px;
-  top: -43px;
+  top: 4090px;
   left: 0;
 }
 
 .twopeppers {
   position: absolute;
-  width: 255px;
+  width: 233px;
   height: 136px;
-  top: 610px;
-  right: -16px;
+  top: 4760px;
+  right: 0%;
 }
 
 .greenpeppers {
   position: absolute;
   width: 214px;
   height: 206px;
-  top: 310px;
+  top: 4420px;
   left: 0px;
 }
 
