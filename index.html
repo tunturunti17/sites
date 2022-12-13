@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Static site course</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./fontello/css/myproject.css">
@@ -26,6 +27,11 @@
                 <div class="header__logo">Город сад</div>
             </div>
             <div class="header__center">
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <nav class="navigation">
                     <ul class="navigation__menu">
                         <li class="navigation__item"><a href="#programms" class="navigation__link">Программы</a></li>
@@ -47,7 +53,7 @@
                 <button class="header__bttn">Выбрать программу</button>
             </div>
             <div class="header__decoration">
-                <div class="plate">
+                 <div class="plate">
                     <img src="./img/plate.svg" alt="Тарелка">
                 </div>
                 <div class="tomato">
@@ -96,7 +102,7 @@
         </aside>
 
         <article class="content">
-            <h2 id="programms"  class="container content__title">Программы</h2>
+            <h2 id="programms" class="container content__title">Программы</h2>
             <div class="content__subtitle">уникальные подарки от партнеров внутри</div>
             <div class="content__card">
                 <section class="programm">
@@ -263,35 +269,42 @@
         <article class="form">
             <form class="form__page" enctype="multipart/form-data" method="get" autocomplete="on">
                 <h2 class="form__title">Связаться с нами</h2>
-                <label class="input-name"><input type="text" placeholder="Имя" name="first-name" required></label>
-                <label class="input-surname"><input type="text" placeholder="Фамилия" name="second-name"
-                        required></label>
-                <label class="input-email"><input type="email" placeholder="Email" name="email" required></label>
-                <label class="input-tel"><input type="tel" id="phone" name="phone" pattern="[+]{1}[7]{1}[0-9]{10}"
-                        placeholder="Телефон" required></label>
-                <select name="select" class="call">
-                    <option value="value1" selected>Выберите время звонка</option>
-                    <option value="value2">12:00-15:00</option>
-                    <option value="value3">15:00-18:00</option>
-                </select>
-                <div class="form__radio">
-                    <div class="radio">
-                        <input id="radio-1" type="radio" name="radio" value="1" checked>
-                        <label for="radio-1">Получать рассылку</label>
-                    </div>
-
-                    <div class="radio">
-                        <input id="radio-2" type="radio" name="radio" value="2">
-                        <label for="radio-2">Не получать рассылку</label>
-                    </div>
+                <div class="input">
+                    <label class="input-name"><input type="text" placeholder="Имя" name="first-name" required></label>
+                    <label class="input-surname"><input type="text" placeholder="Фамилия" name="second-name"
+                            required></label>
+                    <label class="input-email"><input type="email" placeholder="Email" name="email" required></label>
+                    <label class="input-tel"><input type="tel" id="phone" name="phone" pattern="[+]{1}[7]{1}[0-9]{10}"
+                            placeholder="Телефон" required></label>
                 </div>
-                <div class="checkbox">
-                    <label class="checkbox__label">
-                        <input type="checkbox" checked required>
-                        <span>Я соглашаюсь на обработку персональных данных</span>
-                    </label>
+                <div class="check">
+                    <div class="check2">
+                        <select name="select" class="call">
+                            <option value="value1" selected>Выберите время звонка</option>
+                            <option value="value2">12:00-15:00</option>
+                            <option value="value3">15:00-18:00</option>
+                        </select>
+                        <div class="form__radio">
+                            <div class="radioall">
+                                <div class="radio">
+                                    <input id="radio-1" type="radio" name="radio" value="1" checked>
+                                    <label for="radio-1">Получать рассылку</label>
+                                </div>
+                                <div class="radio">
+                                    <input id="radio-2" type="radio" name="radio" value="2">
+                                    <label for="radio-2">Не получать рассылку</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label class="checkbox__label">
+                                <input type="checkbox" checked required>
+                                <span>Я соглашаюсь на обработку персональных данных</span>
+                            </label>
+                        </div>
+                    </div>
+                    <textarea class="form__comment" placeholder="Ваш коменнтарий"></textarea>
                 </div>
-                <textarea class="form__comment" placeholder="Ваш коменнтарий"></textarea>
                 <button type="submit" class="form__bttn">Отправить</button>
             </form>
         </article>

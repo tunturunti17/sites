@@ -1,11 +1,42 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+@media (max-width:768px) {
+  html {
+    font-size: 15px;
+    overflow-x: hidden;
+  }
+
+}
+
+@media (max-width:480px) {
+  html {
+    font-size: 13px;
+    overflow-x: hidden;
+  }
+
+}
+
 header {
   position: relative;
   top: 0px;
-  width: 1366px;
+  width: 95%;
+  max-width: 1366px;
   margin-left: auto;
   margin-right: auto;
-  height: 660px;
+  height: 100%;
   margin-top: 0;
+}
+
+.header__container {
+  width: 95%;
+  height: 100%;
+  min-height: 660px;
+  max-width: 1366px;
+  position: relative;
+  display: flex;
 }
 
 .header__left,
@@ -16,20 +47,54 @@ header {
 
 .header__left {
   position: absolute;
-  top: 36px;
-  left: 96px;
+  top: 9.5%;
+  left: 7.5%;
+}
+
+@media (max-width:768px) {
+  .header__left {
+    position: absolute;
+    top: 5.5%;
+    left: 5.5%;
+  }
 }
 
 .header__center {
   position: absolute;
-  top: 37px;
-  left: 419px;
+  top: 9.6%;
+  left: 32.4%;
+}
+
+@media (max-width:768px) {
+  .header__center {
+    position: absolute;
+    top: 4.6%;
+    left: 100%;
+  }
 }
 
 .header__right {
   position: absolute;
-  top: 35px;
-  left: 1109px;
+  top: 9.5%;
+  left: 85%;
+}
+
+@media (max-width:768px) {
+  .header__right {
+    position: absolute;
+    top: 4.5%;
+    left: 69%;
+    z-index: 3;
+  }
+}
+
+@media (max-width:480px) {
+  .header__right {
+    position: absolute;
+    top: 4.5%;
+    left: 63%;
+    z-index: 3;
+  }
 }
 
 .header__call {
@@ -45,6 +110,41 @@ header {
   margin: 0;
 }
 
+
+@media (max-width:768px) {
+  .navigation__menu {
+    display: none;
+  }
+
+  .menu-btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #222222;
+    transition: all 0.5s;
+  }
+
+  .menu-btn span:nth-of-type(2) {
+    top: calc(50% - 5px);
+  }
+
+  .menu-btn span:nth-of-type(3) {
+    top: calc(50% + 5px);
+  }
+}
+
+
 .navigation__item {
   list-style-type: none;
 }
@@ -55,7 +155,7 @@ header {
   color: black;
   text-decoration: none;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 1.1875rem;
   line-height: 120%
 }
 
@@ -121,21 +221,39 @@ header {
 }
 
 .header__title {
-  position: relative;
-  top: 160px;
-  left: 96px;
+  position: absolute;
+  top: 24%;
+  left: 7.5%;
+}
+
+@media (max-width:768px) {
+  .header__title {
+    position: absolute;
+    top: 9%;
+    left: 0%;
+    z-index: 1;
+  }
+}
+
+@media (max-width:480px) {
+  .header__title {
+    position: absolute;
+    top: 9%;
+    left: 28%;
+    z-index: 1;
+  }
 }
 
 .header__title h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 72px;
-  letter-spacing: 5px;
+  font-size: 4.5rem;
+  letter-spacing: 0.3125rem;
 }
 
 .header__subtitle h2 {
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 20px !important;
+  font-size: 1.25rem !important;
   letter-spacing: 2px;
   font-weight: bolder;
 }
@@ -144,7 +262,7 @@ header {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 120%;
 }
 
@@ -152,7 +270,7 @@ header {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 120%;
   text-decoration-line: underline;
 }
@@ -167,36 +285,123 @@ header {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 38px;
+  font-size: 1rem;
+  line-height: 2.375rem;
   color: #FFFFFF;
 }
 
+@media (max-width:480px) {
+  .header__bttn {
+    top: 110%;
+    width: 210px;
+    height: 62px;
+  }
+}
+
+
 .plate {
   position: absolute;
-  top: 80px;
-  left: 700px;
+  top: 13%;
+  left: 54%;
   width: 429px;
   height: 429px;
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.1));
 }
 
+@media (max-width:768px) {
+  .plate {
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    width: 429px;
+    height: 429px;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.1));
+  }
+}
+
+
+@media (max-width:768px) {
+  .plate img {
+
+    width: 429px;
+    height: 429px;
+
+  }
+}
+
+@media (max-width:480px) {
+  .plate {
+    display: none;
+  }
+}
+
+
 .tomato {
   position: absolute;
-  top: 542px;
-  left: 590px;
+  top: 83%;
+  left: 44%;
   width: 149px;
   height: 135px;
   filter: drop-shadow(15px 15px 40px rgba(0, 0, 0, 0.2));
 }
 
+@media (max-width:768px) {
+  .tomato {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    width: 149px;
+    height: 135px;
+    filter: drop-shadow(15px 15px 40px rgba(0, 0, 0, 0.2));
+  }
+}
+
+@media (max-width:768px) {
+  .tomato img {
+    width: 149px;
+    height: 135px;
+  }
+}
+
+@media (max-width:480px) {
+  .tomato {
+    display: none;
+  }
+}
+
 .minitomato {
   position: absolute;
-  top: 234px;
-  left: 740px;
+  top: 37%;
+  left: 56.5%;
   width: 84px;
   height: 81px;
   filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.1));
+}
+
+@media (max-width:768px) {
+  .minitomato {
+    position: absolute;
+    top: 20%;
+    left: 57.5%;
+    width: 84px;
+    height: 81px;
+    z-index: 1;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.1));
+  }
+}
+
+@media (max-width:768px) {
+  .minitomato img {
+
+    width: 84px;
+    height: 81px;
+  }
+}
+
+@media (max-width:480px) {
+  .minitomato {
+    display: none;
+  }
 }
 
 .pepper {
@@ -245,28 +450,49 @@ header {
   }
 }
 
+@media (max-width:768px) {
+
+  .pepper,
+  .listik {
+    display: none;
+  }
+}
+
 .content {
   position: relative;
-  width: 1366px;
-  top: 380px;
+  max-width: 1366px;
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* @media (max-width:480px) {
+  .content {
+    
+  }
+} */
+
 .content__title {
+
+  display: flex;
   height: 55px;
   width: 210px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.1875rem;
   line-height: 100%;
-  position: absolute;
-  top: 10px;
-  left: 562.5px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
+
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
@@ -277,29 +503,50 @@ header {
   bottom: 0;
   height: 2px;
   background-color: black;
-  top: 80px;
-  left: 65px;
+  top: 6%;
+  left: 46.5%;
+}
 
+@media (max-width:768px) {
+  .content__title::after {
+    top: 4.5%;
+    left: 42.5%;
+  }
+}
+
+@media (max-width:480px) {
+  .content__title::after {
+    top: 2.5%;
+    left: 41.5%;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
 h2:target {
-background-color:  #b6ada3;
+  background-color: #b6ada3;
 }
 
 .content__subtitle {
-  position: absolute;
-  width: 300px;
-  top: 165px;
-  left: 535px;
+  display: flex;
+  box-sizing: content-box;
+  margin-top: 4%;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .content__subtitle {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+@media (max-width:480px) {
+  .content__subtitle {
+    margin-top: 0%;
+  }
 }
 
 .content__programm {
@@ -308,17 +555,51 @@ background-color:  #b6ada3;
 }
 
 .content__card {
-  width: 1180px;
+  max-width: 1180px;
+  width: 95%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: 200px;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
+  z-index: 1;
 }
 
+@media (max-width:768px) {
+  .content__card {
+    justify-content: center;
+  }
+}
+
+
 .programm {
+  display: flex;
   margin: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+@media (max-width:768px) {
+  .programm__icon img {
+    width: 280px;
+  }
+}
+
+@media (max-width:768px) {
+  .programm__icon {
+    width: 280px;
+    display: inline-block;
+  }
+}
+
+@media (max-width:768px) {
+  .programm {
+    width: 300px;
+    margin: 6px;
+  }
 }
 
 .text {
@@ -329,11 +610,18 @@ background-color:  #b6ada3;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 127%;
   margin-top: 27px;
   margin-left: 32px;
   margin-right: 23px;
+}
+
+@media (max-width:768px) {
+  .programm__title {
+    box-sizing: content-box;
+    width: 250px;
+  }
 
 }
 
@@ -341,26 +629,27 @@ background-color:  #b6ada3;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content: space-between;
   margin-left: 26px;
   margin-right: 134px;
   height: 50px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 127%;
 }
 
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
 
-.programm__list > li {
+.programm__list>li {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   margin-left: 19px;
   margin-right: 19px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 172.5%;
 }
 
@@ -373,19 +662,28 @@ background-color:  #b6ada3;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 38px;
   color: #EF3120;
-  margin-top: 50px;
-  margin-left: 25px;
-  margin-right: 89px;
-  margin-bottom: 49px;
+  margin-top: 14%;
+  margin-left: 7%;
+  margin-right: 25%;
+  margin-bottom: 14%;
+}
+
+@media (max-width:768px) {
+  .programm__bttn {
+    width: 200px;
+    height: 50px;
+    margin-top: 2%;
+    margin-right: 20%;
+  }
 }
 
 .perchik {
   position: absolute;
   width: 270px;
-  top: 1040px;
+  top: 65rem;
   right: 0%;
 }
 
@@ -393,7 +691,7 @@ background-color:  #b6ada3;
   position: absolute;
   width: 136px;
   height: 149px;
-  top: 2940px;
+  top: 176rem;
   left: 0%;
 }
 
@@ -401,16 +699,16 @@ background-color:  #b6ada3;
   position: absolute;
   width: 115px;
   height: 101px;
-  top: 2510px;
+  top: 151rem;
+  right: 13rem;
   z-index: 1;
-  right: 180px;
 }
 
 .spice {
   position: absolute;
   width: 325px;
   height: 355px;
-  top: 2480px;
+  top: 146rem;
   right: 0%;
 }
 
@@ -418,8 +716,20 @@ background-color:  #b6ada3;
   position: absolute;
   width: 351px;
   height: 348px;
-  top: 2770px;
-  right: 35px;
+  top: 160rem;
+  right: 2.5rem;
+}
+
+
+@media (max-width:768px) {
+
+  .cucumber,
+  .perchik,
+  .svekla,
+  .plateprogr,
+  .spice {
+    display: none;
+  }
 }
 
 .perchik:hover,
@@ -439,27 +749,36 @@ background-color:  #b6ada3;
 }
 
 .outsider {
-  width: 1162px;
-  height: 800px;
-  display: grid;
-  grid-gap: 80px;
+  box-sizing: content-box;
+  max-width: 1162px;
+  width: 100%;
+  min-height: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
-  top: 780px;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  z-index: 1;
 }
 
 .outsider__menu {
-  display: grid;
-  grid-template-columns: 130px 162px 10px 120px 10px 77px;
-  grid-column-gap: 50px;
-  justify-items: center;
-  align-items: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  width: 100%;
+  padding: 0%;
 }
+
 
 .outsider__item {
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 .outsider__link {
@@ -468,25 +787,31 @@ background-color:  #b6ada3;
 }
 
 .outsider__content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-  justify-items: center;
-  align-items: start;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   position: absolute;
   top: 200px;
 }
 
+@media (max-width:768px) {
+  .outsider__content {
+    justify-content: space-evenly;
+  }
+}
+
+
+
 .outsider__title {
+  display: flex;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.1875rem;
   line-height: 100%;
-  position: absolute;
-  height: 55px;
-  width: 210px;
-  left: 45%;
+  position: relative;
+  box-sizing: content-box;
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -498,8 +823,24 @@ background-color:  #b6ada3;
   bottom: 0;
   height: 2px;
   background-color: black;
-  margin-bottom: -30px;
-  margin-left: -125px;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  margin-left: 25%;
+  margin-top: 36%;
+}
+
+@media (max-width:768px) {
+  .outsider__title::after {
+    margin-left: 25.5%;
+    margin-top: 34%;
+  }
+}
+
+@media (max-width:480px) {
+  .outsider__title::after {
+    margin-left: 23.5%;
+  }
 }
 
 .outsider__navigation {
@@ -508,33 +849,39 @@ background-color:  #b6ada3;
   color: black;
   text-decoration: none;
   position: absolute;
-  width: 300px;
   top: 120px;
-  left: 15%;
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .outsider__image img {
+    width: 200px;
+  }
 }
 
 .bazilik {
   position: absolute;
   height: 29px;
   width: 40px;
-  top: 3180px;
-  right: 350px;
+  top: 198rem;
+  right: 22.5rem;
+  z-index: 3;
 }
 
 .baziliks {
   position: absolute;
   height: 24px;
   width: 33px;
-  top: 3320px;
-  left: 0px;
+  top: 204.5rem;
+  left: 0%;
 }
 
 .branch {
   position: absolute;
   height: 129px;
   width: 94px;
-  top: 3180px;
-  right: 90px;
+  top: 202.5rem;
+  right: 3rem;
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -551,14 +898,26 @@ background-color:  #b6ada3;
   transition: 1s 300ms;
 }
 
+@media (max-width:768px) {
+
+  .bazilik,
+  .baziliks,
+  .branch {
+    display: none;
+  }
+}
+
 
 .footer {
   position: relative;
-  height: 203px;
-  width: 1366px;
-  top: 900px;
+  height: 100%;
+  min-height: 203px;
+  width: 100%;
+  max-width: 1366px;
+  top: 0%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0%;
   border-radius: 0px;
   background: #000000;
   color: white;
@@ -568,15 +927,29 @@ background-color:  #b6ada3;
   color: white;
   text-decoration: none;
   position: absolute;
-  left: 1070px;
-  bottom: 20px;
+  left: 83%;
+  bottom: 7%;
+}
+
+@media (max-width:768px) {
+  .footer__text a {
+    left: 77%;
+    bottom: 9%;
+  }
+}
+
+@media (max-width:480px) {
+  .footer__text a {
+    left: 67%;
+    bottom: 9%;
+  }
 }
 
 .footer__text small {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 120%;
 }
 
@@ -584,7 +957,7 @@ background-color:  #b6ada3;
   font-family: "Museo Sans", 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 17px;
   color: white;
   text-decoration: none;
@@ -592,25 +965,39 @@ background-color:  #b6ada3;
 
 .footer__head {
   position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 15%;
+  left: 7.25%;
 }
 
 .footer__info {
   position: absolute;
-  left: 100px;
-  bottom: 20px;
+  left: 7.25%;
+  bottom: 10%;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 120%;
 }
 
 .footer__about {
   position: absolute;
-  left: 545px;
-  top: 30px;
+  left: 40%;
+  top: 15%;
+}
+
+@media (max-width:768px) {
+  .footer__about {
+    left: 42%;
+    top: 10%;
+  }
+}
+
+@media (max-width:480px) {
+  .footer__about {
+    left: 48%;
+    top: 10%;
+  }
 }
 
 .footer__tel {
@@ -620,17 +1007,17 @@ background-color:  #b6ada3;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 120%;
 }
 
 .footer__about p {
-  margin-top: 9.15px;
-  margin-bottom: 9.5px;
+  margin-top: 3.3%;
+  margin-bottom: 3.3%;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 120%;
 }
 
@@ -641,18 +1028,32 @@ background-color:  #b6ada3;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 120%;
 }
 
 .social {
   position: absolute;
-  left: 1100px;
-  top: 10px;
+  left: 80.5%;
+  top: 5%;
   display: flex;
   align-items: flex-start;
-  padding: 0px;
-  gap: 26px;
+  padding: 0%;
+  gap: 26%;
+}
+
+@media (max-width:768px) {
+  .social {
+    left: 40.5%;
+    top: 53%;
+  }
+}
+
+@media (max-width:480px) {
+  .social {
+    left: 27.5%;
+    top: 43%;
+  }
 }
 
 .social__item {
@@ -661,33 +1062,71 @@ background-color:  #b6ada3;
 
 .form {
   position: relative;
-  top: 900px;
   margin-left: auto;
   margin-right: auto;
-  width: 1366px;
-  height: 843.94px;
+  max-width: 1366px;
+  width: 100%;
+  min-height: 820px;
+  height: 100%;
   background: #282828;
+  margin-top: 3%;
+}
+
+@media (max-width:768px) {
+  .form {
+    margin-top: 88%;
+  }
+}
+
+@media (max-width:480px) {
+  .form {
+    margin-top: 50%;
+  }
+}
+
+.form__page {
+  display: flex;
+  width: 100%;
+  min-height: 487px;
+  ;
+  height: 100%;
+  background: #282828;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 12.5%;
+}
+
+@media (max-width:768px) {
+  .form__page {
+    margin-top: 4%;
+  }
+}
+
+
+@media (max-width:480px) {
+  .form__page {
+    padding-top: 4%;
+  }
 }
 
 .form__title {
-  position: absolute;
-  width: 296px;
-  height: 27px;
-  top: 130px;
-  left: 535px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 0px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.1875rem;
   line-height: 100%;
   color: #BFE142;
 }
 
 .input-name {
-  position: absolute;
-  top: 242px;
-  left: 219px;
+  display: flex;
+  margin-bottom: 3.3%;
 }
 
 input[type=text] {
@@ -701,9 +1140,15 @@ input[type=text] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
+}
+
+@media (max-width:768px) {
+  input[type=text] {
+    width: 200px;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -714,15 +1159,13 @@ input[type=text] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
 
 .input-surname {
-  position: absolute;
-  top: 242px;
-  right: 219px;
+  display: flex;
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -733,15 +1176,13 @@ input[type=text] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
 
 .input-email {
-  position: absolute;
-  top: 345px;
-  left: 219px;
+  display: flex;
 }
 
 input[type=email] {
@@ -755,9 +1196,15 @@ input[type=email] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
+}
+
+@media (max-width:768px) {
+  input[type=email] {
+    width: 200px;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -768,15 +1215,13 @@ input[type=email] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
 
 .input-tel {
-  position: absolute;
-  top: 345px;
-  right: 219px;
+  display: flex;
 }
 
 input[type=tel] {
@@ -790,9 +1235,15 @@ input[type=tel] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
+}
+
+@media (max-width:768px) {
+  input[type=tel] {
+    width: 200px;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -803,21 +1254,33 @@ input[type=tel] {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
 
+.input {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 67.94%;
+}
+
+@media (max-width:480px) {
+  .input {
+    justify-content: center;
+  }
+}
+
 .call {
-  position: absolute;
-  top: 448px;
-  left: 219px;
+  display: flex;
   width: 431.5px;
   height: 43px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
   background: #282828;
@@ -827,15 +1290,66 @@ input[type=tel] {
   border-left-width: 0;
 }
 
+@media (max-width:768px) {
+  .call {
+    width: 200px;
+  }
+}
+
+.check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 67.94%;
+}
+
+@media (max-width:480px) {
+  .check {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    height: 370px
+  }
+}
+
+.check2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33.97%;
+}
+
+@media (max-width:768px) {
+  .check2 {
+    height: 200px;
+  }
+}
+
+@media (max-width:480px) {
+  .check2 {
+    height: 200px;
+    justify-content: space-around;
+  }
+}
 
 .form__comment {
-  position: absolute;
-  top: 458px;
-  right: 219px;
+  display: flex;
   width: 436.5px;
   height: 147px;
 }
 
+@media (max-width:768px) {
+  .form__comment {
+    width: 200px;
+  }
+}
+
+@media (max-width:480px) {
+  .form__comment {
+    padding-top:2%;
+  }
+}
 
 
 textarea {
@@ -848,7 +1362,7 @@ textarea {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
@@ -859,15 +1373,15 @@ textarea::-webkit-input-placeholder {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
 
 .form__bttn {
   position: absolute;
-  top: 717px;
-  left: 219px;
+  top: 87.5%;
+  left: 16%;
   width: 220px;
   height: 62px;
   border: 2px solid #FFFFFF;
@@ -876,15 +1390,18 @@ textarea::-webkit-input-placeholder {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 105%;
   color: #FFF;
 }
 
+@media (max-width:480px) {
+  .form__bttn {
+    left: 26%;
+  }
+}
+
 .form__radio {
-  position: absolute;
-  top: 551px;
-  left: 219px;
   display: flex;
   justify-content: space-between;
   width: 421px;
@@ -892,7 +1409,7 @@ textarea::-webkit-input-placeholder {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 105%;
   color: white;
 }
@@ -910,6 +1427,21 @@ textarea::-webkit-input-placeholder {
   padding-bottom: 3px;
   line-height: 18px;
   user-select: none;
+}
+
+.radioall {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+@media (max-width:768px) {
+  .radioall {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -931,12 +1463,18 @@ textarea::-webkit-input-placeholder {
 }
 
 .checkbox {
-  position: absolute;
-  top: 634px;
-  left: 219px;
+  display: flex;
   width: 539.45px;
   height: 23.27px;
 }
+
+@media (max-width:480px) {
+  .checkbox {
+    width: 292px;
+    height: 23.27px;
+  }
+}
+
 
 .checkbox__label {
   display: block;
@@ -944,6 +1482,12 @@ textarea::-webkit-input-placeholder {
   cursor: pointer;
   user-select: none;
   position: relative;
+}
+
+@media (max-width:480px) {
+  .checkbox__label {
+    margin: 0 0 10px -62px;
+  }
 }
 
 .checkbox__label input[type=checkbox] {
@@ -983,7 +1527,7 @@ textarea::-webkit-input-placeholder {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
   color: #FFFFFF;
 }
 
@@ -991,24 +1535,24 @@ textarea::-webkit-input-placeholder {
   position: absolute;
   width: 270px;
   height: 270px;
-  top: 4090px;
-  left: 0;
+  top: 245.7rem;
+  left: -1.1875rem;
 }
 
 .twopeppers {
   position: absolute;
   width: 233px;
   height: 136px;
-  top: 4760px;
-  right: 0%;
+  top: 289rem;
+  right: -1.1875rem;
 }
 
 .greenpeppers {
   position: absolute;
   width: 214px;
   height: 206px;
-  top: 4420px;
-  left: 0px;
+  top: 269rem;
+  left: -1.1875rem;
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -1025,19 +1569,50 @@ textarea::-webkit-input-placeholder {
   transition: 1s 300ms;
 }
 
-.animate {
-  position: relative;
-  width: 1200px;
-  height: 160px;
-  top: 150px;
-  margin-left: auto;
-  margin-right: auto;
+@media (max-width:768px) {
 
+  .mooshroom,
+  .twopeppers,
+  .greenpeppers {
+    display: none;
+  }
 }
 
+.animate {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width:768px) {
+  .animate {
+text-align: center;;
+  }
+}
+
+@media (max-width:480px) {
+  .animate {
+text-align: center;
+margin-top: -20%;
+  }
+}
 
 .animate__content {
   box-sizing: content-box;
+}
+
+@media (max-width:768px) {
+  .animate__content {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -1053,11 +1628,24 @@ textarea::-webkit-input-placeholder {
   padding-right: 105px;
 }
 
+@media (max-width:768px) {
+  .animate__animated {
+    display: inline-block;
+    padding-right: 4%;
+  }
+}
 
 
 .animate__animated:nth-child(5) {
   display: inline-block;
   padding-right: 0px;
+}
+
+@media (max-width:768px) {
+  .animate__animated:nth-child(5) {
+    display: inline-block;
+    padding-right: 4%;
+  }
 }
 
 /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
@@ -1105,7 +1693,7 @@ textarea::-webkit-input-placeholder {
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   color: #000000;
 }
@@ -1180,14 +1768,14 @@ textarea::-webkit-input-placeholder {
   }
 }
 
-.animate__animated  p {
+.animate__animated p {
   width: 151px;
   height: 38px;
   margin: 0px;
   font-family: "Segoe UI", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 120%;
   color: #000000;
 }
