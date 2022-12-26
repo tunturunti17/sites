@@ -1,6 +1,11 @@
 
-.icon-broccoli:before { content: '\e800'; } /* '' */
-.icon-dinner:before { content: '\e801'; } /* '' */
-.icon-service:before { content: '\e802'; } /* '' */
-.icon-pot:before { content: '\e803'; } /* '' */
-.icon-water:before { content: '\e804'; } /* '' */
+.icon-facebook:before { content: '\e800'; } /* '' */
+.icon-speaker:before { content: '\e801'; } /* '' */
+.icon-location:before { content: '\e802'; } /* '' */
+.icon-calc:before { content: '\e804'; } /* '' */
+.icon-stonks:before { content: '\e805'; } /* '' */
+.icon-airplane:before { content: '\e806'; } /* '' */
+.icon-rubles:before { content: '\e807'; } /* '' */
+.icon-dom:before { content: '\e808'; } /* '' */
+.icon-zavodik:before { content: '\e809'; } /* '' */
+.icon-copy:before { content: '\e80a'; } /* '' */

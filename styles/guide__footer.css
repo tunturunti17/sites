@@ -1,0 +1,79 @@
+.container--guide {
+  padding: 0 35px;
+}
+
+.main__guide--footer {
+  max-width: 1210px;
+  min-height: 296px;
+  background-color: #7224EA;
+  display: flex;
+  flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 46px;
+    margin-bottom: 100px;
+}
+
+.main__guide--footer h1 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 46px;
+color: #fff;
+padding-top: 47px;
+padding-left: 20px;
+}
+
+.consumers {
+  display: flex;
+  column-gap: 210px;
+}
+
+
+.consumers__text h2 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #fff;
+padding-bottom: 13px;
+}
+
+.consumers__text p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #fff;
+}
+
+.consumers__text {
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.icon-zavodik,
+.icon-dom {
+  font-size: 30px;
+  color:#FDBF0F;
+  height: 76px;
+  width: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.icon-dom::before {
+  margin-left: 0;
+}
+
+.consumers__first {
+  padding-left: 22px;
+}

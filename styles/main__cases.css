@@ -1,0 +1,134 @@
+.main__cases {
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 102px;
+}
+
+.main__cases h2 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+padding-top: 70px;
+}
+
+.cases {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #FFF;
+  z-index: 1;
+}
+
+.cases h3 {
+  position: absolute;;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: #FFF;
+background: url("../img/back.svg");
+background-color: transparent;
+/* background-position: center; */
+background-repeat: no-repeat;
+-webkit-tap-highlight-color: transparent;
+padding: 11px 30px 8px 30px;
+border: 0;
+overflow: hidden;
+border-radius: 4px;
+top: -19px;
+left: 36px;
+
+}
+
+.cases__body {
+  min-height:360px;
+  display: flex;
+  column-gap: 107px;
+  background-color: #fff;
+  border: 1px solid rgba(229, 229, 229, 0.6);
+box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.08);
+
+}
+
+.cases__logo {
+  padding-top: 157px;
+  padding-left:100px;
+  display: inline-block;
+  align-items: center;
+}
+
+.cases__text h4 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+padding-top: 55px;
+}
+
+.cases__text p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-top: 20px;
+}
+
+.roster {
+  display: flex;
+  flex-direction: row;
+  column-gap: 113px;
+  margin-top:66px;
+  margin-left:55px;
+}
+
+.roster__first,
+.roster__second {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+list-style-image: url("../img/marker.png");
+display: flex;
+}
+
+.roster p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+padding-top: 10px;
+}
+
+.roster ul {
+  padding-top: 67px;
+}
+
+.roster__first {
+  display: flex;
+  column-gap: 17px;
+}
+
+.roster__second {
+  display: flex;
+  column-gap: 17px;
+}
+
+.cases::after {
+  content: "";
+  background-image: url("../img/paket_mish.png");
+  position: absolute;
+  width:413px;
+  height: 478px;
+  top: -255px;
+  left: 701px;
+  z-index: -1;
+}

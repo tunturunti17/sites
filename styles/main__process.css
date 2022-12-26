@@ -1,0 +1,120 @@
+.main--process {
+  min-height: 765px;
+  background-color: #F5F5F5;
+}
+
+.main__process h1 {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+padding-top: 69px;
+}
+
+.instructions p {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: end;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 70px;
+}
+
+.instructions::before {
+  content: " ";
+  position: absolute;
+  background-image: url("../img/chelsmisheniu.png");
+  width: 520px;
+  height:580px;
+  top: 72px;
+  left: 334px;
+}
+
+.instructions__up {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 31px;
+  column-gap: 425px;
+}
+
+.instructions__down {
+  display:  flex;
+  flex-direction: row;
+  margin-left: 108px;
+  column-gap: 571px;
+}
+
+.instructions__first {
+  padding-top: 147px;
+  position: relative;
+}
+
+.instructions__second {
+padding-top: 95px;
+position: relative;
+}
+
+.instructions__third {
+  position: relative;
+}
+
+.instructions__fourth {
+  position: relative;
+}
+
+.instructions__fourth p {
+  text-align: start;
+}
+
+.instructions__third p {
+  text-align: start;
+}
+
+.instructions__first::after {
+content: "";
+position: absolute;
+background: url("../img/chislo1.svg");
+height: 62px;
+width: 62px;
+top: 144px;
+left: 233px;
+}
+
+.instructions__second::after {
+  content: "";
+  position: absolute;
+  background: url("../img/chislo2.svg");
+  height: 62px;
+  width: 62px;
+  top: 95px;
+  left: 319px
+  }
+
+  .instructions__third::before {
+    content: "";
+    position: absolute;
+    background: url("../img/chislo3.svg");
+    height: 62px;
+    width: 62px;
+    top: -6px;
+    left: -102px;
+    }
+
+    .instructions__fourth::before {
+      content: "";
+      position: absolute;
+      background: url("../img/chislo4.svg");
+      height: 62px;
+      width: 62px;
+      top: 0px;
+      left: -72px;
+  }

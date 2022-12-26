@@ -1,0 +1,114 @@
+.btn {
+  position: relative;
+  font-family: "Roboto Condensed";
+  border: 0;
+  background-color: transparent;
+  background-image: url('../img/btn_black.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 11px 25px 11px 19px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.btn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(100%-30px);
+  height: 100%;
+  background-color: #000;
+}
+
+.btn--left {
+  background-position: left;
+  background-image: url('../img/btn_ali.svg');
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 14px 25px 14px 42px;
+}
+
+.btn--orange {
+  background-position: left;
+  background-image: url('../img/btn_orange.svg');
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 14px 25px 14px 37px;
+  margin-top: 64px;
+  margin-left: 2px;
+}
+
+.btn--guide {
+  position: relative;
+  font-family: "Roboto Condensed";
+  border: 0;
+  background-color: transparent;
+  background-image: url('../img/btn__guide.svg');
+  background-position: left;
+  background-repeat: no-repeat;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 18px;
+  line-height: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 17px 39px 22px 15px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.btn__text--guide {
+  text-align: center;
+  padding-left: 85px;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.btn--form {
+  position: relative;
+  font-family: "Roboto Condensed";
+  border: 0;
+  background-color: transparent;
+  background-image: url('../img/btn__form.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 24px;
+  line-height: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 19px 59px 23px 52px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.btn--footer {
+  margin-left:87px;
+}

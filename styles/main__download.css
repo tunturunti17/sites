@@ -1,0 +1,105 @@
+.main--download {
+  background-color: #7224EA;
+  position: relative;
+}
+
+.main__download {
+  min-height: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  background: transparent;
+}
+
+.main__download::after {
+  content: " ";
+  position: absolute;
+  top: 56px;
+  left: 609px;
+  background-image: url("../img/mishenka.svg");
+  height: 664px;
+  width: 781px;
+  z-index: 3;
+}
+
+.main__download::before {
+  content: " ";
+  position: absolute;
+  top: 118px;
+  left: 624px;
+  background-image: url("../img/hand.svg");
+  height: 602px;
+  width: 565px;
+  z-index: 7;
+}
+
+
+.main__download h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFFFFF;
+  padding-top: 71px;
+  padding-left: 2px;
+}
+
+
+.reasons {
+  display: flex;
+  width:770px;
+  height: 287px;
+  flex-wrap: wrap;
+  column-gap: 22px;
+  row-gap:47px;
+  position: relative;
+  z-index: 5;
+  padding-top: 76px;
+  padding-left: 3px;
+}
+
+.reasons__item {
+  Width: 374px;
+Height: 120px;
+background-color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+/* justify-content:center; */
+align-items: center;
+}
+
+.reasons__item p {
+  padding-top: 5px;
+}
+
+.icon-calc, .icon-stonks,
+.icon-airplane, .icon-rubles {
+  font-size: 38px;
+  color: #651FFF;
+}
+
+.icon-calc {
+  padding-left: 30px;
+  padding-right: 9px;
+}
+
+.icon-stonks {
+  padding-left: 25px;
+  padding-right: 14px;
+}
+
+.icon-airplane {
+  padding-left: 24px;
+  padding-right: 14px;
+}
+
+.icon-rubles {
+  padding-left: 24px;
+  padding-right: 14px;
+}

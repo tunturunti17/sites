@@ -1,0 +1,31 @@
+.devushka {
+  position: absolute;
+  top: 170px;
+  left: 506px;
+  z-index: 1;
+}
+
+.mishen {
+  position: absolute;
+  top: 52px;
+  left: 1083px;
+  opacity: 1;
+}
+
+.ring {
+  position: absolute;
+  left: 316.66px;
+  top: 0px;
+}
+
+.handphone {
+  position: absolute;
+  top: 36px;
+left: 982px;
+}
+
+.hand {
+  position: absolute;
+  top: 98px;
+  left: 997px;
+}
