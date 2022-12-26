@@ -1,7 +1,7 @@
 .footer {
-background-color:  #F5F5F5;
-min-height: 323px;
-font-family: "Roboto Condensed";
+  background-color: #F5F5F5;
+  min-height: 323px;
+  font-family: "Roboto Condensed";
 }
 
 .container--footer {
@@ -91,10 +91,10 @@ font-family: "Roboto Condensed";
 
 .footer__phone {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -124,12 +124,12 @@ line-height: 26px;
 
 .footer__copyright {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-display: flex;
-gap: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  gap: 17px;
 }
 
 

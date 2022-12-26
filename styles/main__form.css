@@ -15,7 +15,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  
+
 }
 
 .main__form {
@@ -25,34 +25,34 @@
   flex-direction: column;
   align-items: center;
   background: #FFFFFF;
-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.08);
-row-gap: 43px;
-margin-top: 50px;
-margin-right: 63px;
-position: relative;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.08);
+  row-gap: 43px;
+  margin-top: 50px;
+  margin-right: 63px;
+  position: relative;
 }
 
-.main__form::after{
+.main__form::after {
   content: "";
-  position:absolute;
+  position: absolute;
   background-image: url("../img/krugform.svg");
   width: 319px;
   height: 313px;
   top: 25px;
   left: 133px;
-  z-index:1;
+  z-index: 1;
 }
 
 .main__form h1 {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-margin-top: 74px;
-margin-left: 73px;
-position: relative;
-z-index: 2;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 74px;
+  margin-left: 73px;
+  position: relative;
+  z-index: 2;
 }
 
 .form {
@@ -64,88 +64,95 @@ z-index: 2;
   width: 100%;
   row-gap: 24px;
   padding-left: 228px;
-  padding-right:135px;
+  padding-right: 135px;
   position: relative;
-z-index: 2;
+  z-index: 2;
 }
 
 .form label {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
-color: rgba(0, 0, 0, 0.54);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.54);
 
 }
 
-.form input, 
+.form input,
 select {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: rgba(0, 0, 0, 0.9);
-outline: none;
-border: none;
-border-bottom: solid 1px #979797;
-width: 316px;
-transition: 0.3s;
-background: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.9);
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #979797;
+  width: 316px;
+  transition: 0.3s;
+  background: transparent;
 }
 
-select, input, label{
-  display:inline-block;
+select,
+input,
+label {
+  display: inline-block;
 }
 
-.form input:focus, 
+.form input:focus,
 select:focus {
   border: none;
   border-bottom: solid 1px #651FFF;
 }
 
-select:focus ~ label,
-input:focus ~ label, label:focus {
+select:focus~label,
+input:focus~label,
+label:focus {
   color: #651FFF;
 }
 
 .form__first {
-display: flex;
-flex-direction: row;
-column-gap: 8px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
 }
 
 .form__second {
   display: flex;
-flex-direction: row;
-column-gap: 8px;
+  flex-direction: row;
+  column-gap: 8px;
 }
 
 .form__third {
   display: flex;
-flex-direction: row;
-column-gap: 8px;
+  flex-direction: row;
+  column-gap: 8px;
 }
 
 .form__fourth {
-  display:  flex;
+  display: flex;
   flex-direction: row;
   column-gap: 123px;
 }
 
-.form__fourth p, .form__fourth a {
+.form__fourth p,
+.form__fourth a {
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
-color: rgba(0, 0, 0, 0.9);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.9);
 }
 
-.input-name, .call,
-.input-tel, .url,
-.input-email, .input-text {
-  display:  flex;
-  flex-direction:column-reverse;
+.input-name,
+.call,
+.input-tel,
+.url,
+.input-email,
+.input-text {
+  display: flex;
+  flex-direction: column-reverse;
 }

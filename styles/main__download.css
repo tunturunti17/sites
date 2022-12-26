@@ -49,11 +49,11 @@
 
 .reasons {
   display: flex;
-  width:770px;
+  width: 770px;
   height: 287px;
   flex-wrap: wrap;
   column-gap: 22px;
-  row-gap:47px;
+  row-gap: 47px;
   position: relative;
   z-index: 5;
   padding-top: 76px;
@@ -62,24 +62,26 @@
 
 .reasons__item {
   Width: 374px;
-Height: 120px;
-background-color: #FFFFFF;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-display: flex;
-/* justify-content:center; */
-align-items: center;
+  Height: 120px;
+  background-color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  /* justify-content:center; */
+  align-items: center;
 }
 
 .reasons__item p {
   padding-top: 5px;
 }
 
-.icon-calc, .icon-stonks,
-.icon-airplane, .icon-rubles {
+.icon-calc,
+.icon-stonks,
+.icon-airplane,
+.icon-rubles {
   font-size: 38px;
   color: #651FFF;
 }

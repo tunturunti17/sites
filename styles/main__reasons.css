@@ -4,7 +4,7 @@
   justify-content: space-around;
   margin-top: 100px;
   margin-bottom: 89px;
- min-height: 450px;
+  min-height: 450px;
 }
 
 .situation {
@@ -116,7 +116,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  margin:0px;
+  margin: 0px;
   height: 120px;
   width: 303px;
   padding-right: 7px;
@@ -150,7 +150,7 @@
   font-weight: 700;
   font-size: 144px;
   line-height: 120px;
-  margin:0px;
+  margin: 0px;
   width: 120px;
   height: 120px;
   /* background-image: url("../img/h4.svg");
@@ -187,7 +187,7 @@
   font-weight: 700;
   font-size: 144px;
   line-height: 120px;
-  margin:0px;
+  margin: 0px;
   width: 120px;
   height: 120px;
   /* background-image: url("../img/h4.svg");
@@ -227,5 +227,3 @@
   padding-top: 3px;
   padding-left: 0px;
 }
-
-
