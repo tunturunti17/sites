@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 100px;
-  margin-bottom: 89px;
-  min-height: 450px;
+  margin-top: 6.25rem;
+  margin-bottom: 5.5625rem;
+  min-height: 28.125rem;
 }
 
 .situation {
@@ -23,36 +23,36 @@
   color: #ffffff;
   position: absolute;
   font-family: 'Roboto';
-  top: 21px;
-  left: -87px;
+  top: 1.3125rem;
+  left: -5.4375rem;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
   z-index: 1;
   background: url("../img/Group.svg");
   background-color: transparent;
   /* background-position: right left; */
   background-repeat: no-repeat;
   -webkit-tap-highlight-color: transparent;
-  padding: 11px 26px 9px 24px;
+  padding: 0.6875rem 1.625rem 0.5625rem 1.5rem;
   border: 0;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 .situation__img {
-  padding-right: 8px;
+  padding-right: 0.5rem;
 }
 
 .situation p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  padding-top: 51px;
-  padding-left: 10px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-top: 3.1875rem;
+  padding-left: 0.625rem;
 }
 
 .decision {
@@ -65,12 +65,12 @@
 .decision__wrapper {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 21.875rem;
 }
 
 .decision__container {
   display: flex;
-  height: 320px;
+  min-height: 20rem;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -79,47 +79,47 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #FFFFFF;
-  line-height: 21px;
-  margin: 0px;
+  line-height: 1.3125rem;
+  margin: 0rem;
   display: flex;
   background: url("../img/Group.svg");
   background-color: transparent;
   background-position: right left;
   background-repeat: no-repeat;
   -webkit-tap-highlight-color: transparent;
-  padding: 11px 26px 8px 27px;
+  padding: 0.6875rem 1.625rem 0.5rem 1.6875rem;
   border: 0;
   overflow: hidden;
-  border-radius: 4px;
-  margin-left: 112px;
-  margin-top: -2px;
+  border-radius: 0.25rem;
+  margin-left: 7rem;
+  margin-top: -0.125rem;
 }
 
 .decision h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 28px;
-  margin: 0px;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin: 0rem;
   display: flex;
   justify-content: center;
-  padding-left: 82px;
-  padding-top: 4px;
+  padding-left: 5.125rem;
+  padding-top: 0.25rem;
 }
 
 .decision p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  margin: 0px;
-  height: 120px;
-  width: 303px;
-  padding-right: 7px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0rem;
+  height: 7.5rem;
+  width: 18.9375rem;
+  padding-right: 0.4375rem;
 }
 
 .decision__first {
@@ -129,8 +129,8 @@
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  height: 120px;
-  column-gap: 36px;
+  height: 7.5rem;
+  column-gap: 2.25rem;
 }
 
 .decision__second {
@@ -140,21 +140,19 @@
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  height: 120px;
-  column-gap: 36px;
+  height: 7.5rem;
+  column-gap: 2.25rem;
 }
 
 .first {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 144px;
-  line-height: 120px;
-  margin: 0px;
-  width: 120px;
-  height: 120px;
-  /* background-image: url("../img/h4.svg");
-  background-repeat: no-repeat; */
+  font-size: 9rem;
+  line-height: 7.5rem;
+  margin: 0rem;
+  width: 7.5rem;
+  height: 7.5rem;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -164,20 +162,20 @@
   content: "";
   position: absolute;
   background-image: url("../img/Number.svg");
-  height: 33px;
-  width: 33px;
-  top: 29px;
-  left: -8px;
+  height: 2.0625rem;
+  width: 2.0625rem;
+  top: 1.8125rem;
+  left: -0.5rem;
 }
 
 .first::after {
   content: "";
   position: absolute;
   background-image: url("../img/h4.svg");
-  height: 120px;
-  width: 120px;
-  top: 10px;
-  left: -8px;
+  height: 7.5rem;
+  width: 7.5rem;
+  top: 0.625rem;
+  left: -0.5rem;
   z-index: -1;
 }
 
@@ -186,12 +184,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 144px;
-  line-height: 120px;
+  line-height: 7.5rem;
   margin: 0px;
-  width: 120px;
-  height: 120px;
-  /* background-image: url("../img/h4.svg");
-  background-repeat: no-repeat; */
+  width: 7.5rem;
+  height: 7.5rem;
   display: flex;
   justify-content: flex-end;
   position: relative;
@@ -201,29 +197,29 @@
   content: "";
   position: absolute;
   background-image: url("../img/Number.svg");
-  height: 33px;
-  width: 33px;
-  top: 29px;
-  left: -8px;
+  height: 2.0625rem;
+  width: 2.0625rem;
+  top: 1.8125rem;
+  left: -0.5rem;
 }
 
 .second::after {
   content: "";
   position: absolute;
   background-image: url("../img/h4.svg");
-  height: 120px;
-  width: 120px;
-  top: 10px;
-  left: -8px;
+  height: 7.5rem;
+  width: 7.5rem;
+  top: 0.625rem;
+  left: -0.5rem;
   z-index: -1;
 }
 
 .decision__first p {
-  padding-top: 62px;
-  padding-left: 0px;
+  padding-top: 3.875rem;
+  padding-left: 0rem;
 }
 
 .decision__second p {
-  padding-top: 3px;
-  padding-left: 0px;
+  padding-top: 0.1875rem;
+  padding-left: 0rem;
 }

@@ -4,7 +4,7 @@
 }
 
 .main__download {
-  min-height: 720px;
+  min-height: 45rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -15,22 +15,22 @@
 .main__download::after {
   content: " ";
   position: absolute;
-  top: 56px;
-  left: 609px;
+  top: 3.5rem;
+  left: 38.0625rem;
   background-image: url("../img/mishenka.svg");
-  height: 664px;
-  width: 781px;
+  height: 41.5rem;
+  width: 48.8125rem;
   z-index: 3;
 }
 
 .main__download::before {
   content: " ";
   position: absolute;
-  top: 118px;
-  left: 624px;
+  top: 7.375rem;
+  left: 39rem;
   background-image: url("../img/hand.svg");
-  height: 602px;
-  width: 565px;
+  height: 35.625rem;
+  width: 35.3125rem;
   z-index: 7;
 }
 
@@ -39,43 +39,42 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 2rem;
+  line-height: 2.625rem;
   color: #FFFFFF;
-  padding-top: 71px;
-  padding-left: 2px;
+  padding-top: 4.4375rem;
+  padding-left: 0.125rem;
 }
-
 
 .reasons {
   display: flex;
-  width: 770px;
-  height: 287px;
+  width: 48.125rem;
+  height: 17.9375rem;
   flex-wrap: wrap;
-  column-gap: 22px;
-  row-gap: 47px;
+  column-gap: 1.375rem;
+  row-gap: 2.9375rem;
   position: relative;
   z-index: 5;
-  padding-top: 76px;
-  padding-left: 3px;
+  padding-top: 4.75rem;
+  padding-left: 0.1875rem;
 }
 
 .reasons__item {
-  Width: 374px;
-  Height: 120px;
+  width: 23.375rem;
+  height: 7.5rem;
   background-color: #FFFFFF;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   display: flex;
   /* justify-content:center; */
   align-items: center;
 }
 
 .reasons__item p {
-  padding-top: 5px;
+  padding-top: 0;
 }
 
 .icon-calc,
@@ -87,21 +86,21 @@
 }
 
 .icon-calc {
-  padding-left: 30px;
-  padding-right: 9px;
+  padding-left: 1.875rem;
+  padding-right: 0.5625rem;
 }
 
 .icon-stonks {
-  padding-left: 25px;
-  padding-right: 14px;
+  padding-left: 1.5625rem;
+  padding-right: 0.875rem;
 }
 
 .icon-airplane {
-  padding-left: 24px;
-  padding-right: 14px;
+  padding-left: 1.5rem;
+  padding-right: 0.875rem;
 }
 
 .icon-rubles {
-  padding-left: 24px;
-  padding-right: 14px;
+  padding-left: 1.5rem;
+  padding-right: 0.875rem;
 }

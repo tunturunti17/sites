@@ -1,32 +1,32 @@
 .container--guide {
-  padding: 0 35px;
+  padding: 0 2.1875rem;
 }
 
 .main__guide--footer {
-  max-width: 1210px;
-  min-height: 296px;
+  max-width: 75.625rem;
+  min-height: 18.5rem;
   background-color: #7224EA;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  row-gap: 46px;
-  margin-bottom: 100px;
+  row-gap: 2.875rem;
+  margin-bottom: 6.25rem;
 }
 
 .main__guide--footer h1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 46px;
+  font-size: 2rem;
+  line-height: 2.875rem;
   color: #fff;
-  padding-top: 47px;
-  padding-left: 20px;
+  padding-top: 2.9375rem;
+  padding-left: 1.25rem;
 }
 
 .consumers {
   display: flex;
-  column-gap: 210px;
+  column-gap: 13.125rem;
 }
 
 
@@ -34,18 +34,18 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
   color: #fff;
-  padding-bottom: 13px;
+  padding-bottom: 0.8125rem;
 }
 
 .consumers__text p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
   color: #fff;
 }
 
@@ -53,15 +53,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 1.25rem;
 }
 
 .icon-zavodik,
 .icon-dom {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #FDBF0F;
-  height: 76px;
-  width: 76px;
+  height: 4.75rem;
+  width: 4.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,9 +71,9 @@
 }
 
 .icon-dom::before {
-  margin-left: 0;
+  margin-left: 0rem;
 }
 
 .consumers__first {
-  padding-left: 22px;
+  padding-left: 1.375rem;
 }

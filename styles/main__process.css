@@ -1,5 +1,5 @@
 .main--process {
-  min-height: 765px;
+  min-height: 47.8125rem;
   background-color: #F5F5F5;
 }
 
@@ -7,17 +7,17 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 42px;
-  padding-top: 69px;
+  font-size: 2rem;
+  line-height: 2.625rem;
+  padding-top: 4.3125rem;
 }
 
 .instructions p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   text-align: end;
 }
 
@@ -25,41 +25,41 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  row-gap: 70px;
+  row-gap: 4.375rem;
 }
 
 .instructions::before {
   content: " ";
   position: absolute;
   background-image: url("../img/chelsmisheniu.png");
-  width: 520px;
-  height: 580px;
-  top: 72px;
-  left: 334px;
+  width: 32.5rem;
+  height: 36.25rem;
+  top: 4.5rem;
+  left: 20.875rem;
 }
 
 .instructions__up {
   display: flex;
   flex-direction: row;
-  margin-top: 60px;
-  margin-left: 31px;
-  column-gap: 425px;
+  margin-top: 3.75rem;
+  margin-left: 1.9375rem;
+  column-gap: 26.5625rem;
 }
 
 .instructions__down {
   display: flex;
   flex-direction: row;
-  margin-left: 108px;
-  column-gap: 571px;
+  margin-left: 6.75rem;
+  column-gap: 35.6875rem;
 }
 
 .instructions__first {
-  padding-top: 147px;
+  padding-top: 9.1875rem;
   position: relative;
 }
 
 .instructions__second {
-  padding-top: 95px;
+  padding-top: 5.9375rem;
   position: relative;
 }
 
@@ -83,38 +83,38 @@
   content: "";
   position: absolute;
   background: url("../img/chislo1.svg");
-  height: 62px;
-  width: 62px;
-  top: 144px;
-  left: 233px;
+  height: 3.875rem;
+  width: 3.875rem;
+  top: 9.05rem;
+  left: 14.45rem;
 }
 
 .instructions__second::after {
   content: "";
   position: absolute;
   background: url("../img/chislo2.svg");
-  height: 62px;
-  width: 62px;
-  top: 95px;
-  left: 319px
+  height: 3.875rem;
+  width: 3.875rem;
+  top: 5.9375rem;
+  left: 19.85rem;
 }
 
 .instructions__third::before {
   content: "";
   position: absolute;
   background: url("../img/chislo3.svg");
-  height: 62px;
-  width: 62px;
-  top: -6px;
-  left: -102px;
+  height: 3.875rem;
+  width: 3.875rem;
+  top: -0.45rem;
+  left: -6.44rem;
 }
 
 .instructions__fourth::before {
   content: "";
   position: absolute;
   background: url("../img/chislo4.svg");
-  height: 62px;
-  width: 62px;
-  top: 0px;
-  left: -72px;
+  height: 3.875rem;
+  width: 3.875rem;
+  top: -0.05rem;
+  left: -4.55rem;
 }

@@ -1,15 +1,15 @@
 .footer {
   background-color: #F5F5F5;
-  min-height: 323px;
+  min-height: 20.1875rem;
   font-family: "Roboto Condensed";
 }
 
 .container--footer {
   display: flex;
   height: 100%;
-  padding-top: 56px;
+  padding-top: 3.5rem;
   flex-direction: column;
-  row-gap: 97px;
+  row-gap: 6.1rem;
 }
 
 .footer__wrapper {
@@ -17,15 +17,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 75px;
+  gap: 4.6875rem;
 }
 
 .footer__wrapper--right {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 25px;
-  margin-top: 20px;
+  gap: 1.5625rem;
+  margin-top: 1.25rem;
   flex-direction: row;
   flex-wrap: nowrap;
 }
@@ -34,14 +34,14 @@
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
   text-transform: uppercase;
 }
 
 .footer__nav {
   display: flex;
-  margin-top: 3px;
+  margin-top: 0.1875rem;
   flex: 1 1 auto;
   justify-content: space-evenly;
 }
@@ -49,7 +49,7 @@
 .footer__nav a {
   font-family: "Roboto Condensed";
   font-weight: 700;
-  line-height: 19px;
+  line-height: 1.1875rem;
   color: inherit;
   text-decoration: none;
   will-change: color;
@@ -68,19 +68,19 @@
   font-family: "Roboto";
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding-left: 13px;
+  gap: 0.5rem;
+  padding-left: 0.8125rem;
 }
 
 .footer__address {
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
   display: flex;
-  gap: 15px;
-  padding-left: 81px;
-  padding-bottom: 8px;
+  gap: 0.9375rem;
+  padding-left: 5.0625rem;
+  padding-bottom: 0.5rem;
 }
 
 
@@ -93,32 +93,32 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
 }
 
 .footer__mail {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  margin-left: 42px;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  margin-left: 2.625rem;
 }
 
 .footer__social {
-  margin-left: 41px;
+  margin-left: 2.5625rem;
 }
 
 
 
 .footer__icon {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .icon-facebook {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #000;
 }
 
@@ -126,14 +126,14 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   display: flex;
   gap: 17px;
 }
 
 
 .icon-copy {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
