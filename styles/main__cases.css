@@ -5,6 +5,12 @@
   row-gap: 6.375rem;
 }
 
+@media (max-width:480px) {
+  .main__cases {
+    margin-bottom:10%;
+  }
+}
+
 .main__cases h2 {
   font-family: 'Roboto';
   font-style: normal;
@@ -45,6 +51,12 @@
 
 }
 
+@media (max-width:768px) {
+  .cases h3 {
+    padding: 0.6rem 2.5rem 0.6rem 1.745rem;
+  }
+}
+
 .cases__body {
   min-height: 22.5rem;
   display: flex;
@@ -55,11 +67,23 @@
 
 }
 
+@media (max-width:1000px) {
+  .cases__body {
+    column-gap: 0.8rem;
+  }
+}
+
 .cases__logo {
   padding-top: 9.8125rem;
   padding-left: 6.25rem;
   display: inline-block;
   align-items: center;
+}
+
+@media (max-width:1000px) {
+  .cases__logo {
+    padding-left: 0.25rem;
+  }
 }
 
 .cases__text h4 {
@@ -88,6 +112,16 @@
   margin-left: 3.4375rem;
 }
 
+@media (max-width:768px) {
+  .roster {
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+} 
+
 .roster__first,
 .roster__second {
   font-family: 'Roboto';
@@ -95,29 +129,29 @@
   font-weight: 700;
   font-size: 3rem;
   line-height: 3.5rem;
-  list-style-image: url("../img/marker.png");
+  /* list-style-image: url("../img/marker.png"); */
   display: flex;
   position: relative;
 }
 
 
 .roster__first::before {
-  content: "";
+  content: url(../img/marker.png);
   position: absolute;
-  background-image: url("../img/marker.png");
-  height: 2.125rem;
-  width: 2.125rem;
-  top: 0.75rem;
+  /* background-image: url("../img/marker.png");
+  height: 32px;
+  width: 32px;
+  top: 0.75rem; */
   left: -3.375rem;
 }
 
 .roster__second::before {
-  content: "";
+  content: url(../img/marker.png);
   position: absolute;
-  background-image: url("../img/marker.png");
-  height: 2.125rem;
-  width: 2.125rem;
-  top: 0.75rem;
+  /* background-image: url("../img/marker.png");
+  height: 32px;
+  width: 32px;
+  top: 0.75rem; */
   left: -3.375rem;
 }
 
@@ -153,4 +187,16 @@
   top: -15.9375rem;
   left: 43.8125rem;
   z-index: -1;
+}
+
+@media (max-width:1200px) {
+  .cases::after {
+    left: 43%;
+  }
+}
+
+@media (max-width:800px) {
+  .cases::after {
+    display:none;
+  }
 }

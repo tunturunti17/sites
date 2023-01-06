@@ -1,0 +1,134 @@
+.main__wrapper {
+  display: flex;
+  /* flex: 1 1 auto; */
+}
+
+.main__header {
+  width: 100%;
+  max-width: 35.625rem;
+  padding-top: 13.8125rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 4;
+  row-gap: 0px;
+}
+
+.main__header::after {
+  content: "";
+  background-image: url("../img/devushka.png");
+  background-size: cover;
+  position: absolute;
+  width: 51.4375rem;
+  height: 34.375rem;
+  top: 9.75rem;
+  left: 8.25rem;
+  z-index: 1;
+}
+
+@media (max-width:1550px) {
+  .main__header::after {
+    width: 70vw;
+    height: 34.375rem;
+    left: -40%;
+    z-index: -1;
+  }
+}
+
+@media (max-width:1000px) {
+  .main__header::after {
+    display: none;
+  }
+}
+
+.main__header::before {
+  content: " ";
+  background-image: url("../img/mishen.png");
+  background-size: cover;
+  position: absolute;
+  width: 86.5rem;
+  height: 45rem;
+  top: -0.9rem;
+  left: -3.5rem;
+  z-index: -1;
+}
+
+@media (max-width:1550px) {
+  .main__header::before {
+    width: 100vw;
+    height: 719px;
+    left: -30%;
+  }
+}
+
+@media (max-width:1000px) {
+  .main__header::before {
+    display: none;
+  }
+}
+
+.main__header h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.375rem;
+  line-height: 3.9375rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 2rem;
+}
+
+.main__header p {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  padding-top: 0.55rem;
+  padding-left: 0.25rem;
+  padding-bottom: 1.45rem;
+}
+
+.main__logo {
+  display: inline-block;
+  max-width: 100%;
+}
+
+@media (max-width:768px) {
+  .main__logo {
+    display: inline-block;
+  }
+}
+
+@media (max-width:768px) {
+  .main__logo img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width:480px) {
+  .main__logo img {
+    max-width: 100%;
+  }
+}
+
+.main--container {
+  background: linear-gradient(0deg, #651FFF -1.81%, #FF5900 33.5%, rgba(253, 191, 15, 0.3) 84.16%, #FFFFFF 145.56%), #FDBF0F;
+  min-height: 44.1rem;
+  position: relative;
+}
+
+/* .main--container::before {
+  content: "";
+  background-image: url("../img/mishen_red.png");
+  position: absolute;
+  width:615px;
+  height: 617px;
+  top: 37px;
+  left: 1078px;
+  background-repeat: no-repeat;
+  z-index: 1;
+} */

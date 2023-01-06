@@ -16,24 +16,56 @@
   content: " ";
   position: absolute;
   top: 3.5rem;
-  left: 38.0625rem;
-  background-image: url("../img/mishenka.svg");
+  left: 52.05%;
+  /* background-image: url("../img/mishenka.svg"); */
+  background: url("../img/mishenka.svg") no-repeat top center; 
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
   height: 41.5rem;
-  width: 48.8125rem;
+  width: 67%;
   z-index: 3;
+}
+
+@media (max-width:1630px) {
+  .main__download::after {
+    left: 32.05%;
+  }
+}
+
+@media (max-width:1200px) {
+  .main__download::after {
+    display:none;
+  }
 }
 
 .main__download::before {
   content: " ";
   position: absolute;
   top: 7.375rem;
-  left: 39rem;
+  left: 53.35%;
   background-image: url("../img/hand.svg");
-  height: 35.625rem;
-  width: 35.3125rem;
+  height: 37.625rem;
+  width: 48.3%;
   z-index: 7;
 }
 
+@media (max-width:1630px) {
+  .main__download::before {
+    left: 32.05%;
+  }
+}
+
+@media (max-width:1200px) {
+  .main__download::before {
+    display:none;
+  }
+}
 
 .main__download h1 {
   font-family: 'Roboto';
@@ -48,13 +80,13 @@
 
 .reasons {
   display: flex;
-  width: 48.125rem;
-  height: 17.9375rem;
+  max-width: 48.125rem;
+  min-height: 17.9375rem;
   flex-wrap: wrap;
   column-gap: 1.375rem;
   row-gap: 2.9375rem;
   position: relative;
-  z-index: 5;
+  z-index: 9;
   padding-top: 4.75rem;
   padding-left: 0.1875rem;
 }
@@ -71,6 +103,12 @@
   display: flex;
   /* justify-content:center; */
   align-items: center;
+}
+
+@media (max-width:768px) {
+  .reasons__item {
+    width: 20rem;
+  }
 }
 
 .reasons__item p {

@@ -32,6 +32,12 @@
   position: relative;
 }
 
+@media (max-width:1440px) {
+  .main__form {
+    margin-right: 0;
+  }
+}
+
 .main__form::after {
   content: "";
   position: absolute;
@@ -41,6 +47,19 @@
   top: 1.5625rem;
   left: 8.3125rem;
   z-index: 1;
+}
+
+@media (max-width:480px) {
+  .main__form::after {
+    top: 26%;
+    left: 12%;
+  }
+}
+
+@media (max-width:400px) {
+  .main__form::after {
+display: none;
+  }
 }
 
 .main__form h1 {
@@ -55,6 +74,19 @@
   z-index: 2;
 }
 
+@media (max-width:1200px) {
+  .main__form h1 {
+    margin-left: 1.6rem;
+  }
+}
+
+@media (max-width:768px) {
+  .main__form h1 {
+    margin-left: 0%;
+    display: flex;
+  }
+}
+
 .form {
   display: flex;
   flex-wrap: wrap;
@@ -67,6 +99,12 @@
   padding-right: 8.4375rem;
   position: relative;
   z-index: 2;
+}
+
+@media (max-width:1350px) {
+  .form {
+    padding:0 0.5%;
+  }
 }
 
 .form label {
@@ -119,10 +157,24 @@ label:focus {
   column-gap: 0.5rem;
 }
 
+@media (max-width:600px) {
+  .form__first {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+}
+
 .form__second {
   display: flex;
   flex-direction: row;
   column-gap: 0.5rem;
+}
+
+@media (max-width:600px) {
+  .form__second {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
 }
 
 .form__third {
@@ -131,10 +183,24 @@ label:focus {
   column-gap: 0.5rem;
 }
 
+@media (max-width:600px) {
+  .form__third {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+}
+
 .form__fourth {
   display: flex;
   flex-direction: row;
   column-gap: 7.6875rem;
+}
+
+@media (max-width:600px) {
+  .form__fourth {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
 }
 
 .form__fourth p,
