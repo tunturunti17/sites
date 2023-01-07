@@ -62,7 +62,7 @@ display: none;
   }
 }
 
-.main__form h1 {
+.main__form h2 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -75,13 +75,13 @@ display: none;
 }
 
 @media (max-width:1200px) {
-  .main__form h1 {
+  .main__form h2 {
     margin-left: 1.6rem;
   }
 }
 
 @media (max-width:768px) {
-  .main__form h1 {
+  .main__form h2 {
     margin-left: 0%;
     display: flex;
   }

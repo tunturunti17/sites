@@ -32,7 +32,7 @@
   position: relative;
 }
 
-.situation h2 {
+.situation h3 {
   color: #ffffff;
   position: absolute;
   font-family: 'Roboto';
@@ -55,13 +55,13 @@
 }
 
 @media (max-width:768px) {
-  .situation h2 {
+  .situation h3 {
     padding: 0.7rem 2.625rem 0.7rem 2rem;
   }
 }
 
 @media (max-width:768px) {
-  .situation h2 {
+  .situation h3 {
     left: -18%;
   }
 }
@@ -141,7 +141,7 @@
   }
 }
 
-.decision h2 {
+.decision h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -164,19 +164,19 @@
 }
 
 @media (max-width:768px) {
-  .decision h2 {
+  .decision h3 {
     margin-left: 1.2rem;
     padding: 0.7rem 1.625rem 0.7rem 2rem;
   }
 }
 
 @media (max-width:768px) {
-  .decision h2 {
+  .decision h3 {
     margin-left: 0rem;
   }
 }
 
-.decision h3 {
+.decision h4 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -190,7 +190,7 @@
 }
 
 @media (max-width:768px) {
-  .decision h3 {
+  .decision h4 {
     padding-left: 0rem;
   }
 }

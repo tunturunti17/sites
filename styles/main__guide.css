@@ -17,7 +17,7 @@ ul {
   margin: 0rem;
 }
 
-.main__guide h1 {
+.main__guide h2 {
   margin: 0px;
   font-family: 'Roboto';
   font-style: normal;
@@ -27,7 +27,7 @@ ul {
   padding-left: 0.125rem;
 }
 
-.guide__independently h2 {
+.guide__independently h3 {
   margin: 0rem;
   font-family: 'Roboto';
   font-style: normal;
@@ -48,7 +48,7 @@ ul {
 }
 
 @media (max-width:768px) {
-  .guide__independently h2 {
+  .guide__independently h3 {
     margin-left: 0rem;
     padding: 0.5rem 1.625rem 0.5rem 2.5rem;
   }
@@ -102,7 +102,7 @@ ul {
   }
 }
 
-.guide__guide h2 {
+.guide__guide h3 {
   margin: 0px;
   font-family: 'Roboto';
   font-style: normal;
@@ -123,7 +123,7 @@ ul {
 }
 
 @media (max-width:400px) {
-  .guide__guide h2 {
+  .guide__guide h3 {
     background: url("../img/label.svg");
     background-repeat: repeat-y;
     padding: 0.6rem 8.625rem 0.5rem 1.47rem;

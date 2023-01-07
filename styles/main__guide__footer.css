@@ -13,7 +13,7 @@
   margin-bottom: 6.25rem;
 }
 
-.main__guide--footer h1 {
+.main__guide--footer h2 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -47,7 +47,7 @@
   }
 }
 
-.consumers__text h2 {
+.consumers__text h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
