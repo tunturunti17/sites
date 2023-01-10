@@ -1,4 +1,4 @@
-.header__nav a {
+.active {
   will-change: color;
   transition: color 0.3s;
 }
@@ -11,18 +11,8 @@
   color: inherit;
 }
 
-.header__contacts a {
-  will-change: color;
-  transition: color 0.3s;
-}
-
 .header__contacts a:hover {
   color: #7224EA;
-}
-
-.btn__text {
-  will-change: color;
-  transition: color 0.3s;
 }
 
 .btn__text:hover {
@@ -33,27 +23,12 @@
   color:  #7224EA;
 }
 
-.footer__nav a {
-  will-change: color;
-  transition: color 0.3s;
-}
-
 .footer__nav-item:hover {
   color: #FF5900;
 }
 
 .footer__nav-item:visited {
   color: inherit;
-}
-
-.icon-facebook {
-  will-change: color;
-  transition: color 0.3s;
-}
-
-.footer__contacts a {
-  will-change: color;
-  transition: color 0.3s;
 }
 
 .footer__contacts a:hover {
@@ -63,3 +38,12 @@
 .icon-facebook:hover {
   color: #3b5998;
 }
+
+.btn:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+

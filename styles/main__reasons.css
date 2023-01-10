@@ -66,6 +66,12 @@
   }
 }
 
+@media (max-width:690px) {
+  .situation h3 {
+    left: 0%;
+  }
+}
+
 .situation__img {
   padding-right: 0.5rem;
 }
