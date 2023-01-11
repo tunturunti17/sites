@@ -4,7 +4,7 @@
 
 @media (max-width:1200px) {
 .popup {
-  z-index: 1;
+  z-index: 12;
   display: block;
   position: fixed;
   width: 100%;
@@ -18,6 +18,8 @@
   overflow-x: hidden;
   transition: all 0.8s ease 0s;
 }
+
+body.lock::-webkit-scrollbar { width: 0;}
 
 .popup.open {
   opacity: 1;

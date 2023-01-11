@@ -5,7 +5,15 @@
   top: 0;
   width: 100%;
   z-index: 7;
+  width: 100%;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 59.03%);
+}
+
+@media (max-width:1200px) {
+  .header {
+  position: static;
+  background: linear-gradient(0deg, rgba(251,207,111,1) 7%, rgba(253,187,45,1) 47%, rgba(254,222,153,1) 85%)
+  }
 }
 
 .header__wrapper {
