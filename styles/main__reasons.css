@@ -166,7 +166,7 @@
   overflow: hidden;
   border-radius: 0.25rem;
   margin-left: 7rem;
-  margin-top: -0.125rem;
+  margin-top: 1rem;
 }
 
 @media (max-width:768px) {
@@ -191,13 +191,13 @@
   margin: 0rem;
   display: flex;
   justify-content: center;
-  padding-left: 5.125rem;
-  padding-top: 0.25rem;
+  margin-left: 5.125rem;
+  margin-top: 0.25rem;
 }
 
 @media (max-width:768px) {
   .decision h4 {
-    padding-left: 0rem;
+    margin-left: 0rem;
   }
 }
 

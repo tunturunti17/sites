@@ -52,11 +52,31 @@
   text-transform: uppercase;
 }
 
+.header__wrapper a {
+  text-decoration: none;
+  color:#000;
+}
+
 .header__nav {
+  display: flex;
+}
+
+.header__menu {
+  padding: 0rem;
   display: flex;
   margin-top: 0.625rem;
   flex: 1 1 auto;
   justify-content: space-between;
+  flex-direction: row;
+  column-gap: 1.877rem;
+}
+
+.header__menu li {
+  list-style-type: none
+}
+
+.header__menu ul {
+  padding: 0rem;
 }
 
 @media (max-width:1200px) {
@@ -81,6 +101,7 @@
 }
 
 .header__address {
+  font-style: normal;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 0.875rem;

@@ -7,6 +7,14 @@
   color: #FF5900;
 }
 
+.header__title:hover {
+  color: #FF5900;
+}
+
+.footer__title:hover {
+  color: #FF5900;
+}
+
 .header__nav-item:visited {
   color: inherit;
 }
@@ -15,12 +23,14 @@
   color: #7224EA;
 }
 
-.btn__text:hover {
+.btn:hover {
   color:  #FDBF0F;
+  cursor: pointer;
 }
 
-.btn--orange .btn__text:hover {
+.btn--orange:hover {
   color:  #7224EA;
+  cursor: pointer;
 }
 
 .footer__nav-item:hover {
@@ -39,11 +49,21 @@
   color: #3b5998;
 }
 
-.btn:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
+.btn {
+  transition: 0.3s ease-in-out;
 }
 
+.btn:hover {
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+  /* transition-duration: 0.3s;
+  transition-timing-function: ease; */
+}
+
+select:hover~label,
+input:hover~label,
+label:hover {
+  color:  #7224EA;
+  cursor: pointer;
+}

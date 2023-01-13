@@ -16,10 +16,13 @@
   visibility: hidden;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: all 0.8s ease 0s;
+  transition: opacity 0.8s ease 0s, visibility 0.8s ease 0s;
 }
 
-body.lock::-webkit-scrollbar { width: 0;}
+body.lock::-webkit-scrollbar { 
+  width: 0;
+  overflow-y: hidden;
+}
 
 .popup.open {
   opacity: 1;
@@ -28,6 +31,7 @@ body.lock::-webkit-scrollbar { width: 0;}
 
 .popup.open .popup__content {
   opacity: 1;
+  visibility: visible;
 }
 
 .popup__body {
@@ -45,7 +49,7 @@ body.lock::-webkit-scrollbar { width: 0;}
   display: flex;
   position: relative;
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: opacity 0.8s ease 0s, visibility 0.8s ease 0s;
   margin-top: 5%;
 }
 
